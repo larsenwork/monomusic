@@ -7,3 +7,6 @@ https://github.com/andreaslarsen/monomusic/blob/master/MonoMusic-Regular.ttf?raw
 
 See it live on:
 http://andreaslarsen.github.io/chord-magic/
+
+Ligatures amont other cool stuf:
+![liga](https://github.com/andreaslarsen/monomusic/blob/master/monomusic.jpg)
