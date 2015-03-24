@@ -1,0 +1,27 @@
+StartChar: r
+Encoding: 114 114 82
+Width: 500
+Flags: W
+HStem: 0 21G<110 189> 461 69<282.405 428.945> 500 20G<110 186>
+VStem: 110 79<0 353.845 420 520>
+AnchorPoint: "bottom" 170 0 basechar 0
+AnchorPoint: "top" 275 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+186 520 m 1xb0
+ 186 420 l 1
+ 188 420 l 1
+ 229 493 287 530 360 530 c 0xd0
+ 385 530 408 527 430 520 c 1xb0
+ 430 450 l 1
+ 407 457 383 461 360 461 c 0xd0
+ 251 461 189 354 189 250 c 6
+ 189 0 l 1
+ 110 0 l 1
+ 110 520 l 1
+ 186 520 l 1xb0
+EndSplineSet
+Layer: 2
+EndChar

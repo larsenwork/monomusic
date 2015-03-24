@@ -1,0 +1,10 @@
+StartChar: guillemotright
+Encoding: 187 187 364
+Width: 500
+Flags: W
+LayerCount: 3
+Back
+Fore
+Refer: 363 171 S -1 0 0 1 500 0 2
+Layer: 2
+EndChar

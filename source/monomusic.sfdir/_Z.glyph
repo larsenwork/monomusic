@@ -1,0 +1,26 @@
+StartChar: Z
+Encoding: 90 90 58
+Width: 500
+Flags: W
+HStem: 0 70<165 425> 660 70<75 335>
+AnchorPoint: "top" 250 730 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+335 658 m 1
+ 335 660 l 1
+ 75 660 l 1
+ 75 730 l 1
+ 425 730 l 1
+ 425 660 l 1
+ 165 72 l 1
+ 165 70 l 1
+ 425 70 l 1
+ 425 0 l 1
+ 75 0 l 1
+ 75 70 l 1
+ 335 658 l 1
+EndSplineSet
+Layer: 2
+EndChar

@@ -1,0 +1,23 @@
+StartChar: y
+Encoding: 121 121 89
+Width: 500
+Flags: W
+HStem: -210 21G<145 234.493> 500 20G<45 139.3 372.15 465>
+AnchorPoint: "top" 250 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+259 120 m 1
+ 261 120 l 1
+ 378 520 l 1
+ 465 520 l 1
+ 228 -210 l 5
+ 145 -210 l 5
+ 220 10 l 1
+ 45 520 l 1
+ 133 520 l 1
+ 259 120 l 1
+EndSplineSet
+Layer: 2
+EndChar

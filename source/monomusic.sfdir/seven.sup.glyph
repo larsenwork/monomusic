@@ -1,0 +1,24 @@
+StartChar: seven.sup
+Encoding: 1114120 -1 341
+Width: 500
+Flags: W
+HStem: 700 70<110 303>
+VStem: 110 277<708 770>
+LayerCount: 3
+Back
+Fore
+SplineSet
+149 252 m 5
+ 189 413 240 562 303 700 c 5
+ 110 700 l 5
+ 110 770 l 5
+ 387 770 l 5
+ 387 708 l 5
+ 386 706 l 4
+ 324 569 273 415 233 248 c 5
+ 231 240 l 5
+ 145 240 l 5
+ 149 252 l 5
+EndSplineSet
+Layer: 2
+EndChar

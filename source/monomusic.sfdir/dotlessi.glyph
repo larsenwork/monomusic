@@ -1,0 +1,25 @@
+StartChar: dotlessi
+Encoding: 305 305 176
+Width: 500
+Flags: W
+HStem: 0 68<95 234 316 425> 452 68<125 234>
+VStem: 234 82<68 452>
+AnchorPoint: "top" 275 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+316 520 m 1
+ 316 68 l 1
+ 425 68 l 1
+ 425 0 l 1
+ 95 0 l 1
+ 95 68 l 1
+ 234 68 l 1
+ 234 452 l 1
+ 125 452 l 1
+ 125 520 l 1
+ 316 520 l 1
+EndSplineSet
+Layer: 2
+EndChar

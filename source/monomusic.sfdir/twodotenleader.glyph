@@ -1,0 +1,23 @@
+StartChar: twodotenleader
+Encoding: 8229 8229 107
+Width: 1000
+Flags: W
+HStem: 0 150<185 315 685 815>
+VStem: 185 130<0 150> 685 130<0 150>
+LayerCount: 3
+Back
+Fore
+SplineSet
+685 0 m 5
+ 685 150 l 5
+ 815 150 l 5
+ 815 0 l 5
+ 685 0 l 5
+185 0 m 5
+ 185 150 l 5
+ 315 150 l 5
+ 315 0 l 5
+ 185 0 l 5
+EndSplineSet
+Layer: 2
+EndChar

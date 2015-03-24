@@ -1,0 +1,25 @@
+StartChar: uni300A
+Encoding: 12298 12298 111
+Width: 1000
+Flags: W
+LayerCount: 3
+Back
+Fore
+SplineSet
+903 815 m 1
+ 630 360 l 1
+ 903 -95 l 1
+ 825 -95 l 1
+ 552 360 l 1
+ 825 815 l 1
+ 903 815 l 1
+750 815 m 1
+ 476 360 l 1
+ 750 -95 l 1
+ 672 -95 l 1
+ 398 360 l 1
+ 672 815 l 1
+ 750 815 l 1
+EndSplineSet
+Layer: 2
+EndChar

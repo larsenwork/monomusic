@@ -1,0 +1,26 @@
+StartChar: o
+Encoding: 111 111 79
+Width: 500
+Flags: W
+HStem: -10 69<181.261 318.729> 461 69<181.271 318.739>
+VStem: 50 82<117.125 402.861> 368 82<117.139 402.875>
+AnchorPoint: "top" 250 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+250 530 m 4
+ 383 530 450 440 450 260 c 4
+ 450 80 383 -10 250 -10 c 4
+ 117 -10 50 80 50 260 c 4
+ 50 440 117 530 250 530 c 4
+250 59 m 4
+ 351.266608845 59 368 145.762262461 368 260 c 4
+ 368 374.314323 351.310245612 461 250 461 c 4
+ 148.733391155 461 132 374.237737539 132 260 c 4
+ 132 145.685677 148.689754388 59 250 59 c 4
+EndSplineSet
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 0-1" o exclam
+Substitution2: "'sups' Superscript lookup 0-1" o.sup
+EndChar

@@ -1,0 +1,23 @@
+StartChar: uniFE30
+Encoding: 65072 65072 114
+Width: 1000
+Flags: W
+HStem: 40 140<453 547> 540 140<453 547>
+VStem: 453 94<40 180 540 680>
+LayerCount: 3
+Back
+Fore
+SplineSet
+453 540 m 1
+ 453 680 l 1
+ 547 680 l 1
+ 547 540 l 1
+ 453 540 l 1
+453 40 m 1
+ 453 180 l 1
+ 547 180 l 1
+ 547 40 l 1
+ 453 40 l 1
+EndSplineSet
+Layer: 2
+EndChar

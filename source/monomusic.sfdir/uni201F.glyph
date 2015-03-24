@@ -1,0 +1,23 @@
+StartChar: uni201F
+Encoding: 8223 8223 106
+Width: 500
+Flags: W
+HStem: 500 280
+VStem: 90 320
+LayerCount: 3
+Back
+Fore
+SplineSet
+200 780 m 1
+ 260 500 l 1
+ 200 500 l 1
+ 90 780 l 1
+ 200 780 l 1
+350 780 m 1
+ 410 500 l 1
+ 350 500 l 1
+ 240 780 l 1
+ 350 780 l 1
+EndSplineSet
+Layer: 2
+EndChar

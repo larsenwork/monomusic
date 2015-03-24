@@ -1,0 +1,13 @@
+StartChar: uni0136
+Encoding: 310 310 212
+Width: 500
+VWidth: 0
+HStem: -280 180<195 215> 0 21G<75 157 358.278 465> 710 20G<75 157 352.515 460>
+VStem: 75 82<0 360 400 730> 145 160
+LayerCount: 3
+Back
+Fore
+Refer: 313 806 N 1 0 0 1 -5 0 2
+Refer: 43 75 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

@@ -1,0 +1,29 @@
+StartChar: uniFE19
+Encoding: 65049 65049 113
+Width: 1000
+Flags: W
+HStem: -43 140<453 547> 290 140<453 547> 623 140<453 547>
+VStem: 453 94<-43 97 290 430 623 763>
+CounterMasks: 1 e0
+LayerCount: 3
+Back
+Fore
+SplineSet
+453 -43 m 1
+ 453 97 l 1
+ 547 97 l 1
+ 547 -43 l 1
+ 453 -43 l 1
+453 290 m 1
+ 453 430 l 1
+ 547 430 l 1
+ 547 290 l 1
+ 453 290 l 1
+453 623 m 1
+ 453 763 l 1
+ 547 763 l 1
+ 547 623 l 1
+ 453 623 l 1
+EndSplineSet
+Layer: 2
+EndChar

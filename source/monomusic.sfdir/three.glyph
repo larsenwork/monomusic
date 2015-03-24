@@ -1,0 +1,32 @@
+StartChar: three
+Encoding: 51 51 19
+Width: 500
+Flags: W
+HStem: -10 74<130.924 300.783> 355 72<245 313.689> 658 72<80 330>
+VStem: 346 84<112.179 321.173>
+LayerCount: 3
+Back
+Fore
+SplineSet
+220 64 m 4
+ 312 64 346 114 346 210 c 4
+ 346 320 328 355 220 355 c 6
+ 150 355 l 5
+ 150 427 l 5
+ 330 656 l 5
+ 330 658 l 5
+ 80 658 l 5
+ 80 730 l 5
+ 425 730 l 5
+ 425 658 l 5
+ 245 429 l 5
+ 245 427 l 5
+ 384 427 430 357 430 210 c 4
+ 430 63 365 -10 235 -10 c 4
+ 186 -10 138 0 90 20 c 5
+ 90 105 l 5
+ 141 78 185 64 220 64 c 4
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" three.sup
+EndChar

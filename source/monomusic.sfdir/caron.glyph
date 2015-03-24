@@ -1,0 +1,13 @@
+StartChar: caron
+Encoding: 711 711 161
+Width: 500
+Flags: W
+HStem: 620 160
+VStem: 87 326
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+Refer: 160 710 S -1 0 0 -1 500 1390 2
+Layer: 2
+EndChar

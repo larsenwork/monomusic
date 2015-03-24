@@ -1,0 +1,27 @@
+StartChar: plus
+Encoding: 43 43 11
+Width: 500
+Flags: W
+HStem: 269 72<60 209 291 440>
+VStem: 209 82<55 269 341 555>
+LayerCount: 3
+Back
+Fore
+SplineSet
+291 555 m 5
+ 291 341 l 5
+ 440 341 l 5
+ 440 269 l 5
+ 291 269 l 5
+ 291 55 l 5
+ 209 55 l 5
+ 209 269 l 5
+ 60 269 l 5
+ 60 341 l 5
+ 209 341 l 5
+ 209 555 l 5
+ 291 555 l 5
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" plus.sup
+EndChar

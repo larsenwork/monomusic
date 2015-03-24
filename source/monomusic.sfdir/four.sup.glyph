@@ -1,0 +1,29 @@
+StartChar: four.sup
+Encoding: 1114117 -1 338
+Width: 500
+Flags: W
+HStem: 362 67<153 284 364 426>
+VStem: 284 80<240 362 432 660>
+LayerCount: 3
+Back
+Fore
+SplineSet
+284 429 m 1
+ 284 660 l 1
+ 153 429 l 5
+ 284 429 l 1
+284 240 m 1
+ 284 362 l 1
+ 78 362 l 1
+ 78 432 l 1
+ 275 770 l 1
+ 364 770 l 1
+ 364 432 l 1
+ 426 432 l 1
+ 426 362 l 1
+ 364 362 l 1
+ 364 240 l 1
+ 284 240 l 1
+EndSplineSet
+Layer: 2
+EndChar

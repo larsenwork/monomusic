@@ -1,0 +1,62 @@
+StartChar: doublesharp
+Encoding: 119082 119082 297
+Width: 500
+Flags: W
+HStem: 122 143<55 187.458 312.542 445> 265 104<208.542 291.458> 369 143<55 187.458 312.542 445>
+VStem: 55 143<122 254.458 379.542 512> 198 104<275.542 358.458> 302 143<122 254.458 379.542 512>
+LayerCount: 3
+Back
+SplineSet
+100 167 m 5
+ 100 467 l 5
+ 400 467 l 5
+ 400 167 l 5
+ 100 167 l 5
+EndSplineSet
+Fore
+SplineSet
+55 122 m 5x94
+ 55 265 l 5x94
+ 146 265 l 6
+ 174 265 198 289 198 317 c 4x88
+ 198 345 174 369 146 369 c 6
+ 55 369 l 5
+ 55 512 l 5
+ 198 512 l 5xb0
+ 198 421 l 6
+ 198 393 222 369 250 369 c 4x50
+ 278 369 302 393 302 421 c 6
+ 302 512 l 5
+ 445 512 l 5
+ 445 369 l 5x34
+ 354 369 l 6
+ 326 369 302 345 302 317 c 4x28
+ 302 289 326 265 354 265 c 6
+ 445 265 l 5
+ 445 122 l 5
+ 302 122 l 5xa4
+ 302 213 l 6
+ 302 241 278 265 250 265 c 4x44
+ 222 265 198 241 198 213 c 6
+ 198 122 l 5
+ 55 122 l 5x94
+EndSplineSet
+Layer: 2
+SplineSet
+330 317 m 5
+ 687 317 l 1029
+-187 317 m 5
+ 170 317 l 1029
+250 237 m 5
+ 250 -120 l 1029
+250 754 m 5
+ 250 397 l 1029
+100 167 m 5
+ 100 467 l 5
+ 400 467 l 5
+ 400 167 l 5
+ 100 167 l 5
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 0-1" doublesharp.sup
+Ligature2: "'liga' Standard Ligatures lookup 0-1" numbersign numbersign exclam
+EndChar

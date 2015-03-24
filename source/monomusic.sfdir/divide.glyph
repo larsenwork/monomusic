@@ -1,0 +1,29 @@
+StartChar: divide
+Encoding: 247 247 319
+Width: 500
+Flags: W
+HStem: 55 120<199 301> 269 72<60 440> 435 120<199 301>
+VStem: 199 102<55 175 435 555>
+CounterMasks: 1 e0
+LayerCount: 3
+Back
+Fore
+SplineSet
+199 55 m 5
+ 199 175 l 5
+ 301 175 l 5
+ 301 55 l 5
+ 199 55 l 5
+199 435 m 5
+ 199 555 l 5
+ 301 555 l 5
+ 301 435 l 5
+ 199 435 l 5
+60 341 m 5
+ 440 341 l 5
+ 440 269 l 5
+ 60 269 l 5
+ 60 341 l 5
+EndSplineSet
+Layer: 2
+EndChar

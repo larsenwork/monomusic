@@ -1,0 +1,10 @@
+StartChar: arrowdown
+Encoding: 8595 8595 303
+Width: 500
+Flags: W
+LayerCount: 3
+Back
+Fore
+Refer: 300 8594 N 0 -1 1 0 -55 555 2
+Layer: 2
+EndChar

@@ -1,0 +1,28 @@
+StartChar: u.sup
+Encoding: 1114147 -1 383
+Width: 500
+Flags: W
+HStem: 233 54<168.712 282.122>
+VStem: 85 69<301.712 620> 328 70<240 295 340.297 620>
+AnchorPoint: "ogonoek" 426 0 basechar 0
+AnchorPoint: "top" 245 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+211 233 m 4
+ 112 233 85 281 85 379 c 4
+ 85 620 l 5
+ 154 620 l 5
+ 154 385 l 4
+ 154 322 158 287 228 287 c 4
+ 297 287 328 365 328 436 c 4
+ 328 620 l 5
+ 398 620 l 5
+ 398 240 l 5
+ 332 240 l 5
+ 330 295 l 5
+ 310 260 268 233 211 233 c 4
+EndSplineSet
+Layer: 2
+EndChar

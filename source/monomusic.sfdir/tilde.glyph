@@ -1,0 +1,23 @@
+StartChar: tilde
+Encoding: 732 732 128
+Width: 500
+Flags: W
+HStem: 610 65<266.815 343.146> 659 64<156.854 233.196>
+VStem: 88 324
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+302 610 m 4xa0
+ 245 610 223 659 192 659 c 4
+ 170 659 158 643 142 615 c 5
+ 88 639 l 5
+ 108 684 141 723 198 723 c 4x60
+ 257 723 277 675 308 675 c 4
+ 330 675 342 691 358 719 c 5
+ 412 695 l 5
+ 392 651 359 610 302 610 c 4xa0
+EndSplineSet
+Layer: 2
+EndChar

@@ -1,0 +1,32 @@
+StartChar: four
+Encoding: 52 52 20
+Width: 500
+Flags: W
+HStem: 0 21G<293 375> 175 72<116 293 375 460> 710 20G<272.725 375>
+VStem: 293 82<0 175 247 590>
+LayerCount: 3
+Back
+Fore
+SplineSet
+293 590 m 5
+ 291 590 l 5
+ 116 249 l 5
+ 116 247 l 5
+ 293 247 l 5
+ 293 590 l 5
+293 175 m 5
+ 40 175 l 5
+ 40 257 l 5
+ 283 730 l 5
+ 375 730 l 5
+ 375 247 l 5
+ 460 247 l 5
+ 460 175 l 5
+ 375 175 l 5
+ 375 0 l 5
+ 293 0 l 5
+ 293 175 l 5
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" four.sup
+EndChar

@@ -1,0 +1,13 @@
+StartChar: acute
+Encoding: 180 180 123
+Width: 500
+Flags: W
+HStem: 609 163
+VStem: 213 229
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+Refer: 64 96 S -1 0 0 1 500 -1 2
+Layer: 2
+EndChar

@@ -1,0 +1,23 @@
+StartChar: exclam.sup
+Encoding: 1114142 -1 366
+Width: 500
+Flags: W
+HStem: 240 109<202 297>
+VStem: 202 95<240 349 541.545 770> 213 73<411 725.125>
+LayerCount: 3
+Back
+Fore
+SplineSet
+213 411 m 5xa0
+ 206 770 l 1
+ 294 770 l 1
+ 286 411 l 5
+ 213 411 l 5xa0
+297 240 m 1xc0
+ 202 240 l 1
+ 202 349 l 1
+ 297 349 l 1
+ 297 240 l 1xc0
+EndSplineSet
+Layer: 2
+EndChar

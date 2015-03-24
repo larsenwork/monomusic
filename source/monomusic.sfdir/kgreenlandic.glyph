@@ -1,0 +1,25 @@
+StartChar: kgreenlandic
+Encoding: 312 312 240
+Width: 500
+Flags: W
+HStem: 0 21G<80 159 348.715 460> 500 20G<80 159 348.308 460>
+VStem: 80 79<0 253 286 520>
+LayerCount: 3
+Back
+Fore
+SplineSet
+460 520 m 1
+ 230 270 l 1
+ 460 0 l 1
+ 365 0 l 1
+ 159 253 l 1
+ 159 0 l 1
+ 80 0 l 1
+ 80 520 l 5
+ 159 520 l 5
+ 159 286 l 1
+ 366 520 l 1
+ 460 520 l 1
+EndSplineSet
+Layer: 2
+EndChar

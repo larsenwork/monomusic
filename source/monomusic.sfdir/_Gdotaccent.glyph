@@ -1,0 +1,13 @@
+StartChar: Gdotaccent
+Encoding: 288 288 219
+Width: 500
+VWidth: 0
+HStem: -10 72<208.416 367.545> 360 70<215 370> 668 72<213.617 404.9> 850 120<229 331>
+VStem: 40 78<186.252 542.704> 229 102<850 970> 370 80<74.5473 360>
+LayerCount: 3
+Back
+Fore
+Refer: 158 729 N 1 0 0 1 30 210 2
+Refer: 39 71 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

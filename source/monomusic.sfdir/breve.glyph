@@ -1,0 +1,21 @@
+StartChar: breve
+Encoding: 728 728 157
+Width: 500
+Flags: W
+HStem: 610 64<193.288 305.832>
+VStem: 102 56<711.128 746.625> 342 56<713.19 746.625>
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+248 610 m 4
+ 157 610 110 685 102 745 c 5
+ 158 758 l 5
+ 172 708 201 674 248 674 c 4
+ 296 674 327 708 342 758 c 5
+ 398 745 l 5
+ 390 685 340 610 248 610 c 4
+EndSplineSet
+Layer: 2
+EndChar

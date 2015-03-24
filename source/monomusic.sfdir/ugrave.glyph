@@ -1,0 +1,13 @@
+StartChar: ugrave
+Encoding: 249 249 183
+Width: 500
+VWidth: 0
+HStem: -10 71<165.626 285.676> 0 21G<350.467 425> 500 20G<65 142 346 425> 610 163
+VStem: 53 229 65 77<88.0125 520> 346 79<0 75 143.351 520>
+LayerCount: 3
+Back
+Fore
+Refer: 311 715 N 1 0 0 1 -5 0 2
+Refer: 85 117 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

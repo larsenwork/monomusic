@@ -1,0 +1,26 @@
+StartChar: z
+Encoding: 122 122 90
+Width: 500
+Flags: W
+HStem: 0 69<172 420> 451 69<80 328>
+AnchorPoint: "top" 250 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+80 520 m 1
+ 420 520 l 1
+ 420 451 l 1
+ 172 71 l 1
+ 172 69 l 1
+ 420 69 l 1
+ 420 0 l 1
+ 80 0 l 1
+ 80 69 l 1
+ 328 449 l 1
+ 328 451 l 1
+ 80 451 l 1
+ 80 520 l 1
+EndSplineSet
+Layer: 2
+EndChar

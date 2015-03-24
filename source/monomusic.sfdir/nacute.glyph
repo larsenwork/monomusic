@@ -1,0 +1,13 @@
+StartChar: nacute
+Encoding: 324 324 242
+Width: 500
+VWidth: 0
+HStem: 0 21G<70 149 363 440> 459 71<214.491 335.804> 500 20G<70 144.533> 610 163
+VStem: 70 79<0 378.472 445 520> 228 229 363 77<0 430.27>
+LayerCount: 3
+Back
+Fore
+Refer: 310 714 N 1 0 0 1 15 0 2
+Refer: 78 110 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

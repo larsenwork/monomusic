@@ -1,0 +1,22 @@
+StartChar: circumflex
+Encoding: 710 710 160
+Width: 500
+Flags: W
+HStem: 610 160
+VStem: 87 326
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+87 651 m 5
+ 223 770 l 5
+ 279 770 l 5
+ 413 651 l 5
+ 375 610 l 5
+ 251 701 l 5
+ 127 610 l 5
+ 87 651 l 5
+EndSplineSet
+Layer: 2
+EndChar

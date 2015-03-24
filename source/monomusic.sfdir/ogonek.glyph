@@ -1,0 +1,23 @@
+StartChar: ogonek
+Encoding: 731 731 156
+Width: 500
+Flags: W
+HStem: -229 67<181.551 285.13> 0 30<274.029 289.267>
+VStem: 100 76<-155.844 -63.8692>
+AnchorPoint: "ogonoek" 300 0 mark 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+300 0 m 1
+ 197 -46 176 -79 176 -115 c 0
+ 176 -144 190 -162 231 -162 c 0
+ 252 -162 268 -161 293 -155 c 1
+ 285 -222 l 1
+ 265 -226 248 -229 221 -229 c 0
+ 145 -229 100 -186 100 -131 c 0
+ 100 -61 156 -8 286 30 c 1
+ 300 0 l 1
+EndSplineSet
+Layer: 2
+EndChar

@@ -1,0 +1,13 @@
+StartChar: yacute
+Encoding: 253 253 187
+Width: 500
+VWidth: 0
+HStem: -210 21G<145 234.493> 500 20G<45 139.3 372.15 465> 610 163
+VStem: 213 229
+LayerCount: 3
+Back
+Fore
+Refer: 310 714 N 1 0 0 1 0 0 2
+Refer: 89 121 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

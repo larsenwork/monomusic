@@ -1,0 +1,13 @@
+StartChar: uni013C
+Encoding: 316 316 239
+Width: 500
+VWidth: 0
+HStem: -280 180<195 215> -10 68<288.967 430> 662 68<70 199>
+VStem: 145 160 199 82<64.0934 662>
+LayerCount: 3
+Back
+Fore
+Refer: 313 806 N 1 0 0 1 -5 0 2
+Refer: 76 108 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

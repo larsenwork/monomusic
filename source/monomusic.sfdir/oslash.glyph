@@ -1,0 +1,44 @@
+StartChar: oslash
+Encoding: 248 248 118
+Width: 500
+Flags: W
+HStem: -10 69<180.827 318.405> 461 69<181.595 319.173>
+VStem: 50 82<160.323 403.03> 368 82<116.97 359.677>
+LayerCount: 3
+Back
+SplineSet
+50 0 m 29
+ 450 520 l 1053
+EndSplineSet
+Fore
+SplineSet
+250 59 m 4
+ 291 59 321 74 340 104 c 4
+ 359 134 368 187 368 260 c 4
+ 368 300 365 334 359 361 c 5
+ 161 103 l 5
+ 180 73 210 59 250 59 c 4
+70 -15 m 5
+ 30 15 l 5
+ 83 84 l 5
+ 61 127 50 186 50 260 c 4
+ 50 440 117 530 250 530 c 4
+ 308 530 354 513 387 479 c 5
+ 430 535 l 5
+ 470 505 l 5
+ 417 436 l 5
+ 439 393 450 334 450 260 c 4
+ 450 80 383 -10 250 -10 c 4
+ 192 -10 146 7 113 41 c 5
+ 70 -15 l 5
+339 417 m 5
+ 320 447 290 461 250 461 c 4
+ 209 461 179 446 160 416 c 4
+ 141 386 132 333 132 260 c 4
+ 132 220 135 186 141 159 c 5
+ 339 417 l 5
+EndSplineSet
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 0-1" o exclam
+Substitution2: "'sups' Superscript lookup 0-1" oslash.sup
+EndChar

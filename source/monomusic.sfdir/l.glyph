@@ -1,0 +1,26 @@
+StartChar: l
+Encoding: 108 108 76
+Width: 500
+Flags: W
+HStem: -10 68<288.967 430> 662 68<70 199>
+VStem: 199 82<64.0934 662>
+AnchorPoint: "bottom" 250 0 basechar 0
+AnchorPoint: "top" 245 730 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+281 180 m 2
+ 281 61.2608695652 281 58 355 58 c 0
+ 387 58 430 63 430 63 c 5
+ 430 -5 l 1
+ 430 -5 380 -10 345 -10 c 0
+ 222 -10 199 14.9555555556 199 150 c 2
+ 199 662 l 1
+ 70 662 l 1
+ 70 730 l 1
+ 281 730 l 1
+ 281 180 l 2
+EndSplineSet
+Layer: 2
+EndChar

@@ -1,0 +1,13 @@
+StartChar: uni02CA
+Encoding: 714 714 310
+Width: 500
+Flags: W
+HStem: 610 163
+VStem: 213 229
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+Refer: 64 96 N -1 0 0 1 500 0 2
+Layer: 2
+EndChar

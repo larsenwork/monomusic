@@ -1,0 +1,30 @@
+StartChar: u
+Encoding: 117 117 85
+Width: 500
+Flags: W
+HStem: -10 71<165.626 285.676> 0 21G<350.467 425> 500 20G<65 142 346 425>
+VStem: 65 77<88.0125 520> 346 79<0 75 143.351 520>
+AnchorPoint: "ogonoek" 426 0 basechar 0
+AnchorPoint: "top" 245 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+210 -10 m 0xb8
+ 95.4400532649 -10 65 54.7033339757 65 190 c 2
+ 65 520 l 1
+ 142 520 l 1
+ 142 198 l 2
+ 142 110.567199719 148.49775368 61 230 61 c 0xb8
+ 311.400607665 61 346 170.586637714 346 268 c 2
+ 346 520 l 1
+ 425 520 l 1
+ 425 0 l 1
+ 351 0 l 1x78
+ 349 75 l 1
+ 347 75 l 1
+ 325.063054129 27.361727806 276.281607937 -10 210 -10 c 0xb8
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" u.sup
+EndChar

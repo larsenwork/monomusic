@@ -1,0 +1,19 @@
+StartChar: grave
+Encoding: 96 96 64
+Width: 500
+Flags: W
+HStem: 610 163
+VStem: 58 229
+AnchorPoint: "top" 250 520 mark 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+58 701 m 5
+ 102 773 l 5
+ 287 656 l 5
+ 260 610 l 5
+ 58 701 l 5
+EndSplineSet
+Layer: 2
+EndChar

@@ -1,0 +1,28 @@
+StartChar: E
+Encoding: 69 69 37
+Width: 500
+Flags: W
+HStem: 0 72<162 420> 360 70<162 410> 658 72<162 420>
+VStem: 80 82<72 360 430 658>
+AnchorPoint: "ogonoek" 420 0 basechar 0
+AnchorPoint: "top" 250 730 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+162 658 m 1
+ 162 430 l 1
+ 410 430 l 1
+ 410 360 l 1
+ 162 360 l 1
+ 162 72 l 1
+ 420 72 l 1
+ 420 0 l 1
+ 80 0 l 1
+ 80 730 l 1
+ 420 730 l 1
+ 420 658 l 1
+ 162 658 l 1
+EndSplineSet
+Layer: 2
+EndChar

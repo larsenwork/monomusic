@@ -1,0 +1,23 @@
+StartChar: quotedblleft
+Encoding: 8220 8220 103
+Width: 500
+Flags: W
+HStem: 500 280
+VStem: 80 320
+LayerCount: 3
+Back
+Fore
+SplineSet
+340 500 m 1
+ 230 500 l 1
+ 340 780 l 1
+ 400 780 l 1
+ 340 500 l 1
+190 500 m 1
+ 80 500 l 1
+ 190 780 l 1
+ 250 780 l 1
+ 190 500 l 1
+EndSplineSet
+Layer: 2
+EndChar

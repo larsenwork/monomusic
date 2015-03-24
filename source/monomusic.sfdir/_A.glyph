@@ -1,0 +1,29 @@
+StartChar: A
+Encoding: 65 65 33
+Width: 500
+Flags: W
+HStem: 0 21G<20 106.381 389.619 480> 210 70<164 332> 710 20G<195.068 304.932>
+AnchorPoint: "ogonoek" 480 0 basechar 0
+AnchorPoint: "top" 250 730 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+249 660 m 5
+ 247 660 l 5
+ 164 280 l 5
+ 332 280 l 5
+ 249 660 l 5
+348 210 m 5
+ 148 210 l 5
+ 102 0 l 5
+ 20 0 l 5
+ 200 730 l 5
+ 300 730 l 5
+ 480 0 l 5
+ 394 0 l 5
+ 348 210 l 5
+EndSplineSet
+Layer: 2
+LCarets2: 2 0 0
+EndChar

@@ -1,0 +1,13 @@
+StartChar: Eogonek
+Encoding: 280 280 210
+Width: 500
+VWidth: 0
+HStem: -229 67<301.551 405.13> 0 30<394.029 409.267> 0 72<162 420> 360 70<162 410> 658 72<162 420>
+VStem: 80 82<72 360 430 658> 220 76<-155.844 -63.8692>
+LayerCount: 3
+Back
+Fore
+Refer: 156 731 N 1 0 0 1 120 0 2
+Refer: 37 69 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

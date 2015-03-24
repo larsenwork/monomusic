@@ -1,0 +1,22 @@
+StartChar: equal
+Encoding: 61 61 29
+Width: 500
+Flags: W
+HStem: 165 72<60 440> 373 72<60 440>
+LayerCount: 3
+Back
+Fore
+SplineSet
+60 373 m 1
+ 60 445 l 1
+ 440 445 l 1
+ 440 373 l 1
+ 60 373 l 1
+60 165 m 1
+ 60 237 l 1
+ 440 237 l 1
+ 440 165 l 1
+ 60 165 l 1
+EndSplineSet
+Layer: 2
+EndChar

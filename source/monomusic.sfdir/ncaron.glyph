@@ -1,0 +1,13 @@
+StartChar: ncaron
+Encoding: 328 328 246
+Width: 500
+VWidth: 0
+HStem: 0 21G<70 149 363 440> 459 71<214.491 335.804> 500 20G<70 144.533> 620 160
+VStem: 70 79<0 378.472 445 520> 102 326 363 77<0 430.27>
+LayerCount: 3
+Back
+Fore
+Refer: 161 711 N 1 0 0 1 15 0 2
+Refer: 78 110 N 1 0 0 1 0 0 3
+Layer: 2
+EndChar

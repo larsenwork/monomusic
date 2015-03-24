@@ -1,0 +1,19 @@
+StartChar: hyphen
+Encoding: 45 45 13
+Width: 500
+Flags: W
+HStem: 269 72<100 400>
+VStem: 100 300<269 341>
+LayerCount: 3
+Back
+Fore
+SplineSet
+100 269 m 5
+ 100 341 l 5
+ 400 341 l 5
+ 400 269 l 5
+ 100 269 l 5
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" minus.sup
+EndChar

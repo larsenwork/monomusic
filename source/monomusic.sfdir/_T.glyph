@@ -1,0 +1,24 @@
+StartChar: T
+Encoding: 84 84 52
+Width: 500
+Flags: W
+HStem: 0 21G<209 291> 660 70<55 209 291 445>
+VStem: 209 82<0 660>
+AnchorPoint: "bottom" 250 0 basechar 0
+AnchorPoint: "top" 250 730 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+209 0 m 1
+ 209 660 l 1
+ 55 660 l 1
+ 55 730 l 1
+ 445 730 l 1
+ 445 660 l 1
+ 291 660 l 1
+ 291 0 l 1
+ 209 0 l 1
+EndSplineSet
+Layer: 2
+EndChar

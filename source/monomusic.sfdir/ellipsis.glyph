@@ -1,0 +1,29 @@
+StartChar: ellipsis
+Encoding: 8230 8230 108
+Width: 1000
+Flags: W
+HStem: 0 150<102 232 435 565 768 898>
+VStem: 102 130<0 150> 435 130<0 150> 768 130<0 150>
+CounterMasks: 1 70
+LayerCount: 3
+Back
+Fore
+SplineSet
+768 0 m 5
+ 768 150 l 5
+ 898 150 l 5
+ 898 0 l 5
+ 768 0 l 5
+435 0 m 5
+ 435 150 l 5
+ 565 150 l 5
+ 565 0 l 5
+ 435 0 l 5
+102 0 m 5
+ 102 150 l 5
+ 232 150 l 5
+ 232 0 l 5
+ 102 0 l 5
+EndSplineSet
+Layer: 2
+EndChar

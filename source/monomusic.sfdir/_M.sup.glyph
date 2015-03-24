@@ -1,0 +1,29 @@
+StartChar: M.sup
+Encoding: 1114134 -1 356
+Width: 500
+Flags: W
+VStem: 52 76<240 630> 368 80<240 630>
+LayerCount: 3
+Back
+Fore
+SplineSet
+368 630 m 1
+ 366 630 l 1
+ 288 470 l 1
+ 208 470 l 1
+ 130 630 l 5
+ 128 630 l 5
+ 128 240 l 5
+ 52 240 l 5
+ 52 770 l 5
+ 142 770 l 5
+ 251 550 l 1
+ 253 550 l 1
+ 362 770 l 1
+ 448 770 l 1
+ 448 240 l 1
+ 368 240 l 1
+ 368 630 l 1
+EndSplineSet
+Layer: 2
+EndChar

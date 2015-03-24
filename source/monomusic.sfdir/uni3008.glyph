@@ -1,0 +1,18 @@
+StartChar: uni3008
+Encoding: 12296 12296 109
+Width: 1000
+Flags: W
+LayerCount: 3
+Back
+Fore
+SplineSet
+903 815 m 1
+ 630 360 l 1
+ 903 -95 l 1
+ 822 -95 l 1
+ 548 360 l 1
+ 822 815 l 1
+ 903 815 l 1
+EndSplineSet
+Layer: 2
+EndChar

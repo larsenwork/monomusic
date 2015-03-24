@@ -1,0 +1,31 @@
+StartChar: s
+Encoding: 115 115 83
+Width: 500
+Flags: W
+HStem: -10 67<141.966 325.718> 463 67<179.77 363.648>
+VStem: 80 79<335.596 442.137> 351 79<83.0823 192.095>
+AnchorPoint: "bottom" 250 0 basechar 0
+AnchorPoint: "top" 250 520 basechar 0
+LayerCount: 3
+Back
+Fore
+SplineSet
+80 390 m 4
+ 80 485 149 530 250 530 c 4
+ 306 530 359 518 410 495 c 5
+ 410 420 l 5
+ 357 449 306 463 255 463 c 4
+ 191 463 159 439 159 390 c 4
+ 159 333 200 317 255 300 c 4
+ 367 266 430 246 430 135 c 4
+ 430 35 355 -10 250 -10 c 4
+ 193 -10 138 3 85 30 c 5
+ 85 110 l 5
+ 137 75 189 57 240 57 c 4
+ 314 57 351 83 351 135 c 4
+ 351 198 309 210 245 230 c 4
+ 149 260 80 287 80 390 c 4
+EndSplineSet
+Layer: 2
+Substitution2: "'sups' Superscript lookup 0-1" s.sup
+EndChar
