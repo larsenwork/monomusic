@@ -250,4 +250,7 @@ span.color:hover {
     margin: 0px;
     font-size: 12px;
   }
+  #close {
+    display: none;
+  }
 }
