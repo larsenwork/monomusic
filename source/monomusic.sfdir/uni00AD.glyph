@@ -1,7 +1,7 @@
 StartChar: uni00AD
 Encoding: 173 173 345
 Width: 500
-Flags: W
+Flags: HW
 HStem: 269 72<100 400>
 VStem: 100 300<269 341>
 LayerCount: 3
