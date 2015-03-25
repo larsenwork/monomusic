@@ -239,8 +239,7 @@ span.color:hover {
 
 @media print {
   @page {
-    margin: 10mm;
-    size: 300mm 400mm;
+    margin: 30mm 20mm 30mm 20mm;
   }
   * {
       -webkit-print-color-adjust: exact;
