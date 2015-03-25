@@ -46,6 +46,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "'liga' Standard Ligatures lookup 1-1" flat flat
 Ligature2: "'liga' Standard Ligatures lookup 1-1" b b exclam
+Ligature2: "'liga' Standard Ligatures lookup 1-1" flat flat
 EndChar
