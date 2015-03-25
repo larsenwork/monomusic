@@ -12,37 +12,60 @@
     <script src="_/js/chordhighlight.js"></script>
     <script src="_/js/color.js"></script>
   </head>
-  <body class="withtitle">
+  <body>
 
     <div class="row">
       <div class="large-12 columns">
         <h1>MonoMusic</h1>
         <h2 class="tagline">A monospaced font for chords+tabs</h2>
-        <a class="button" href="https://github.com/andreaslarsen/monomusic">download</a>
+        <a class="button" href="https://github.com/andreaslarsen/monomusic">download</a> <a class="button" href="https://github.com/andreaslarsen/monomusic/raw/master/resources/MonoManual.pdf">pdf manual</a>
         <h2 class="chordfixer">MonoMusicFixer</h2>
       </div>
 
 
       <div class="large-12 columns">
         <form onsubmit="convert();return false;">
-          <textarea id="text" placeholder="Type or paste something here and press 'Fix' and enjoy pretty, highlighted, shortened and superscripted chords like shown in the examples below"></textarea>
+          <textarea id="text" placeholder="Type/paste here, 'Fix' and get chords like shown in the example document below"></textarea>
           <input type="submit" name="submit" value="Fix" class="button">
         </form>
         <div class="title" placeholder="Examples - by @andreaslarsendk" contenteditable="true"></div>
-        <div class="text" id="hyp" contenteditable="true">Capo II
+        <div class="text" id="hyp" contenteditable="true">Chords+text: Wonderwall (Capo II)
 
 <span class="highlight">Em</span>      <span class="highlight">G</span>
 Today is gonna be the day
              <span class="highlight">D</span><span class="highlight"></span>                   <span class="highlight">A</span><span class="highlight"></span>
-That they're gonna throw it back to you,
+That they're gonna throw it back to you
 <span class="highlight">Em</span>        <span class="highlight">G</span>
 By now you should of somehow
    <span class="highlight">D</span><span class="highlight"></span>                 <span class="highlight">A</span><span class="highlight"></span>
-Realised what you gotta do.
+Realised what you gotta do
 <span class="highlight">Em</span>                  <span class="highlight">G</span>       <span class="highlight">D</span><span class="highlight"></span>            <span class="highlight">A</span><span class="highlight"></span>
 I don't believe that anybody feels the way I do
-          <span class="highlight">C</span><span class="highlight"></span>  <span class="highlight">D</span> l! <span class="highlight">A</span><span class="highlight"></span>  l!
-About you now.</div>
+          <span class="highlight">C</span><span class="highlight"></span>  <span class="highlight">D</span>  <span class="highlight">A</span><span class="highlight"></span>
+About you now
+
+
+
+Tab: Stairway to heaven intro
+
+E|-------5-7-----7-|-8-----8-2-----2-|-0---------0-----|-----------------|
+B|-----5-----5-----|---5-------3-----|---1---1-----1---|-0-1-1-----------|
+G|---5---------5---|-----5-------2---|-----2---------2-|-0-2-2-----------|
+D|-7-------6-------|-5-------4-------|-3---------------|-----------------|
+A|-----------------|-----------------|-----------------|-2-0-0---0--/8-7-|
+E|-----------------|-----------------|-----------------|-----------------|
+
+
+
+Chords+tab: Daughters
+
+ <span class="highlight">E</span><span class="highlight">/B</span>  <span class="highlight">Em</span>  <span class="highlight">Em/A</span>   <span class="highlight">D</span>    <span class="highlight">E</span>    <span class="highlight">D</span>     <span class="highlight">Bm</span>   <span class="highlight">D/F</span>   <span class="highlight">D</span>   <span class="highlight">Gm/D</span>  <span class="highlight">A/D</span>  <span class="highlight">Gm</span>  <span class="highlight">A</span>
+e|---0-----0-----0-----2-----0-----2-----2-----x-----5-----3-----0-----1-----2--
+B|---3-----3-----3-----0-----3-----3-----3-----3-----5-----3-----2-----1-----2--
+G|---2-----0-----0-----2-----1-----2-----4-----2-----5-----3-----0-----3-----0--
+D|---x-----2-----2-----0-----2-----0-----4-----0-----0-----0-----0-----x-----2--
+A|---2-----2-----0-----x-----2-----x-----2-----x-----x-----x-----x-----0-----0--
+E|---x-----0-----x-----x-----0-----x-----x-----x-----x-----x-----x-----3-----x--</div>
         <div>
           <span id="title" class="button">Title</span>
 <!--          <span id="column" class="button">Col</span>-->
@@ -50,7 +73,6 @@ About you now.</div>
           <span id="magich" class="button">B→H</span>
           <span id="plus" class="button">+</span>
           <span id="minus" class="button">÷</span>
-          <span id="hide" class="button">Done</span>
           <span id="farve">
             Chords
             <select name="colorpicker">
@@ -93,19 +115,18 @@ About you now.</div>
               <option value="hsl(195, 5%, 100%)">100%</option>
             </select>
           </span>
-        </div>
+        </div><!--buttons-->
+        <div><span id="hide" class="button">Done</span></div>
       </div>
-      <div class="large-12 columns white">Report issues and give me ideas on <a href="https://github.com/andreaslarsen/monomusic">GitHub</a>
-
-Title - Show/hide
+      <div class="large-12 columns white">Title - Show/hide the editable document title
 Adsu  - Adds the maybe missing space(s) after add and sus chords
 B→H   - If you're from Denmark
-Done  - Hide everything but the document (esc to unhide)
++/-   - Font size
+Done  - Hide everything but the document
 
-Future
-Fixing the forward slash ligatures in the web version
-Any other ideas?</div>
+Report issues and give me ideas on <a href="https://github.com/andreaslarsen/monomusic">GitHub</a></div>
     </div><!-- Row -->
+    <div id="close">×</div>
     <script>
       $(document).ready(function(){
         $("#plus").click(function() {
@@ -137,8 +158,12 @@ Any other ideas?</div>
         $("#hide").click(function(){
           $("body").addClass("wow");
         });
+        $("#close").click(function(){
+          $("body").removeClass("wow");
+        });
         $(document).on('keyup',function(evt) {
           if (evt.keyCode == 27) {
+            evt.preventDefault();
             $("body").removeClass("wow");
           }
         });
@@ -154,12 +179,14 @@ Any other ideas?</div>
             var text = $(this).text();
             text = text.replace(/sus2/g, "sus2 ");
             text = text.replace(/sus4/g, "sus4 ");
-            text = text.replace(/add2/g, "add2 ");
-            text = text.replace(/add4/g, "add4 ");
-            text = text.replace(/add6/g, "add6 ");
-            text = text.replace(/add9/g, "add9 ");
-            text = text.replace(/add11/g, "add11  ");
-            text = text.replace(/add13/g, "add13  ");
+            text = text.replace(/\uE021\uE022\uE021\uE002/g, "\uE021\uE022\uE021\uE002 ");  //sus2
+            text = text.replace(/\uE021\uE022\uE021\uE004/g, "\uE021\uE022\uE021\uE004 ");  //sus4
+            text = text.replace(/\uE01B\uE01C\uE01C\uE002/g, "\uE01B\uE01C\uE01C\uE002 ");  //add2
+            text = text.replace(/\uE01B\uE01C\uE01C\uE004/g, "\uE01B\uE01C\uE01C\uE004 ");  //add4
+            text = text.replace(/\uE01B\uE01C\uE01C\uE006/g, "\uE01B\uE01C\uE01C\uE006 ");  //add6
+            text = text.replace(/\uE01B\uE01C\uE01C\uE009/g, "\uE01B\uE01C\uE01C\uE009 ");  //add9
+            text = text.replace(/\uE01B\uE01C\uE01C\uE001\uE001/g, "\uE01B\uE01C\uE01C\uE001\uE001 ");  //add11
+            text = text.replace(/\uE01B\uE01C\uE01C\uE001\uE003/g, "\uE01B\uE01C\uE01C\uE001\uE003 ");  //add13
             $(this).text(text);
           });
         });

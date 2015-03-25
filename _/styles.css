@@ -94,7 +94,7 @@ body, input, h1 {
   border: 1px solid #bbb;
   outline: none;
   padding: 20px;
-  line-height: 1.15em;
+  line-height: 1.10em;
 }
 textarea {
   resize: none;
@@ -119,14 +119,17 @@ textarea {
 .highlight {
   page-break-after: avoid;
   display: inline-block;
-  transform: translateY(1.5px);
+  padding-top: 3px;
 }
 .highlight, a {
   color: hsl(195, 100%, 40%);
   text-decoration: none;
 }
-.pink .highlight {
-  color: hsl(321, 100%, 40%);
+#hide {
+  background-color: hsl(105, 100%, 36%);
+}
+#hide:hover {
+  background-color: hsl(105, 100%, 30%);
 }
 .magic #title, .magic #nomagic {
   display: inline-block;
@@ -137,12 +140,19 @@ p {
 #hyp {
   white-space: pre-wrap;
 }
-.noliga {
-  font-variant-ligatures: no-common-ligatures;
-  -moz-font-feature-settings: "liga" 0, "clig" 0;
-  -ms-font-feature-settings: "liga" 0, "clig" 0;
-  -webkit-font-feature-settings: "liga" 0, "clig" 0;
-  font-feature-settings: "liga" 0, "clig" 0;
+#close {
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-size: 6.85em;
+  color: hsl(195, 100%, 40%);
+  line-height: 1em;
+  margin-right: 0.15em;
+  visibility: hidden;
+  cursor: pointer;
+}
+.wow #close {
+  visibility: visible;
 }
 .simplecolorpicker.picker {
   position: absolute;
