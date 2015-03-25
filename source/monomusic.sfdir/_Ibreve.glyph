@@ -1,5 +1,5 @@
 StartChar: Ibreve
-Encoding: 300 300 228
+Encoding: 300 300 226
 Width: 500
 VWidth: 0
 HStem: 0 70<90 208 292 410> 660 70<90 208 292 410> 820 64<193.288 305.832>
@@ -8,7 +8,7 @@ CounterMasks: 1 1c
 LayerCount: 3
 Back
 Fore
-Refer: 157 728 N 1 0 0 1 0 210 2
+Refer: 155 728 N 1 0 0 1 0 210 2
 Refer: 41 73 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

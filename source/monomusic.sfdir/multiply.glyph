@@ -1,15 +1,9 @@
 StartChar: multiply
-Encoding: 215 215 320
+Encoding: 215 215 317
 Width: 500
 Flags: W
 LayerCount: 3
 Back
-SplineSet
-92 465 m 29
- 408 149 l 1053
-92 149 m 29
- 408 465 l 1053
-EndSplineSet
 Fore
 SplineSet
 119 122 m 5

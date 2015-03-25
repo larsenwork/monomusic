@@ -1,0 +1,14 @@
+StartChar: five.slash
+Encoding: 57384 57384 403
+Width: 1000
+Flags: W
+HStem: 233 69<121.187 351.229> 514 69<190.939 357.202> 705 68<193 456> 710 20G<821.377 902>
+VStem: 112 78<567 607.857> 119 74<567 705> 394 76<340.028 478.772>
+LayerCount: 3
+Back
+Fore
+Refer: 351 57349 S 1 0 0 1 40 0 2
+Refer: 15 47 N 1 0 0 1 450 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" five.sup slash
+EndChar

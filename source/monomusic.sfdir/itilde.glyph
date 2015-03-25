@@ -1,5 +1,5 @@
 StartChar: itilde
-Encoding: 297 297 225
+Encoding: 297 297 223
 Width: 500
 VWidth: 0
 HStem: 0 68<95 234 316 425> 452 68<125 234> 610 65<291.815 368.146> 659 64<181.854 258.196>
@@ -7,7 +7,7 @@ VStem: 113 324 234 82<68 452>
 LayerCount: 3
 Back
 Fore
-Refer: 128 732 N 1 0 0 1 25 0 2
-Refer: 176 305 N 1 0 0 1 0 0 3
+Refer: 126 732 N 1 0 0 1 25 0 2
+Refer: 174 305 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

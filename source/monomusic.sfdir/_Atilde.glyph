@@ -1,5 +1,5 @@
 StartChar: Atilde
-Encoding: 195 195 129
+Encoding: 195 195 127
 Width: 500
 VWidth: 0
 HStem: 0 21G<20 106.381 389.619 480> 210 70<164 332> 710 20G<195.068 304.932> 820 65<266.815 343.146> 869 64<156.854 233.196>
@@ -7,7 +7,7 @@ VStem: 88 324
 LayerCount: 3
 Back
 Fore
-Refer: 128 732 N 1 0 0 1 0 210 2
+Refer: 126 732 N 1 0 0 1 0 210 2
 Refer: 33 65 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

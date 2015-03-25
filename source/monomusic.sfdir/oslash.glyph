@@ -1,15 +1,11 @@
 StartChar: oslash
-Encoding: 248 248 118
+Encoding: 248 248 116
 Width: 500
 Flags: W
 HStem: -10 69<180.827 318.405> 461 69<181.595 319.173>
 VStem: 50 82<160.323 403.03> 368 82<116.97 359.677>
 LayerCount: 3
 Back
-SplineSet
-50 0 m 29
- 450 520 l 1053
-EndSplineSet
 Fore
 SplineSet
 250 59 m 4
@@ -39,6 +35,6 @@ SplineSet
  339 417 l 5
 EndSplineSet
 Layer: 2
-Ligature2: "'liga' Standard Ligatures lookup 0-1" o exclam
-Substitution2: "'sups' Superscript lookup 0-1" oslash.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" o exclam
+Substitution2: "'sups' Superscript lookup 1-1" oslash.sup
 EndChar

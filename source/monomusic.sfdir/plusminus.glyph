@@ -1,0 +1,31 @@
+StartChar: plusminus
+Encoding: 177 177 343
+Width: 500
+Flags: W
+HStem: 129 72<80 420> 379 72<80 209 291 420>
+VStem: 209 82<265 379 451 565>
+LayerCount: 3
+Back
+Fore
+SplineSet
+80 129 m 5
+ 80 201 l 5
+ 420 201 l 5
+ 420 129 l 5
+ 80 129 l 5
+291 565 m 5
+ 291 451 l 5
+ 420 451 l 5
+ 420 379 l 5
+ 291 379 l 5
+ 291 265 l 5
+ 209 265 l 5
+ 209 379 l 5
+ 80 379 l 5
+ 80 451 l 5
+ 209 451 l 5
+ 209 565 l 5
+ 291 565 l 5
+EndSplineSet
+Layer: 2
+EndChar

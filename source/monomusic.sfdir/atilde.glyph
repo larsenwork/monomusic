@@ -1,5 +1,5 @@
 StartChar: atilde
-Encoding: 227 227 155
+Encoding: 227 227 153
 Width: 500
 VWidth: 0
 Flags: W
@@ -8,7 +8,7 @@ VStem: 55 75<83.6211 221.695> 88 324 348 77<0 75 131.397 275 335 438.419>
 LayerCount: 3
 Back
 Fore
-Refer: 128 732 N 1 0 0 1 0 0 2
+Refer: 126 732 N 1 0 0 1 0 0 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

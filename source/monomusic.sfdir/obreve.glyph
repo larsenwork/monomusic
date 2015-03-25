@@ -1,5 +1,5 @@
 StartChar: obreve
-Encoding: 335 335 250
+Encoding: 335 335 248
 Width: 500
 VWidth: 0
 HStem: -10 69<181.261 318.729> 461 69<181.271 318.739> 610 64<193.288 305.832>
@@ -7,7 +7,7 @@ VStem: 50 82<117.125 402.861> 102 56<711.128 746.625> 342 56<713.19 746.625> 368
 LayerCount: 3
 Back
 Fore
-Refer: 157 728 N 1 0 0 1 0 0 2
+Refer: 155 728 N 1 0 0 1 0 0 2
 Refer: 79 111 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: umacron
-Encoding: 363 363 273
+Encoding: 363 363 271
 Width: 500
 VWidth: 0
 HStem: -10 71<165.626 285.676> 0 21G<350.467 425> 500 20G<65 142 346 425> 640 64<110.5 379.5>
@@ -7,7 +7,7 @@ VStem: 65 77<88.0125 520> 110.5 269<640 704> 346 79<0 75 143.351 520>
 LayerCount: 3
 Back
 Fore
-Refer: 162 713 N 1 0 0 1 -5 0 2
+Refer: 160 713 N 1 0 0 1 -5 0 2
 Refer: 85 117 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

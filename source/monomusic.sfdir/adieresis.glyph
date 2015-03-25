@@ -1,5 +1,5 @@
 StartChar: adieresis
-Encoding: 228 228 122
+Encoding: 228 228 120
 Width: 500
 VWidth: 0
 Flags: W
@@ -8,7 +8,7 @@ VStem: 55 75<83.6211 221.695> 96 100<620 720> 304 100<620 720> 348 77<0 75 131.3
 LayerCount: 3
 Back
 Fore
-Refer: 121 168 N 1 0 0 1 0 0 2
+Refer: 119 168 N 1 0 0 1 0 0 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

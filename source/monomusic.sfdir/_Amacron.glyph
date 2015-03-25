@@ -1,5 +1,5 @@
 StartChar: Amacron
-Encoding: 256 256 189
+Encoding: 256 256 187
 Width: 500
 VWidth: 0
 HStem: 0 21G<20 106.381 389.619 480> 210 70<164 332> 710 20G<195.068 304.932> 850 64<115.5 384.5>
@@ -7,7 +7,7 @@ VStem: 115.5 269<850 914>
 LayerCount: 3
 Back
 Fore
-Refer: 162 713 N 1 0 0 1 0 210 2
+Refer: 160 713 N 1 0 0 1 0 210 2
 Refer: 33 65 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: Delta
-Encoding: 916 916 115
+Encoding: 916 916 113
 Width: 500
 Flags: W
 HStem: 0 70<119 377> 710 20G<195.068 304.932>
@@ -7,18 +7,18 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-249 660 m 1
- 247 660 l 1
- 119 70 l 1
- 377 70 l 1
- 249 660 l 1
+249 660 m 5
+ 247 660 l 5
+ 119 70 l 5
+ 377 70 l 5
+ 249 660 l 5
 20 0 m 5
- 200 730 l 1
- 300 730 l 1
+ 200 730 l 5
+ 300 730 l 5
  480 0 l 5
  20 0 l 5
 EndSplineSet
 Layer: 2
-Ligature2: "'liga' Standard Ligatures lookup 0-1" A exclam
-Substitution2: "'sups' Superscript lookup 0-1" Delta.sup
+Substitution2: "'sups' Superscript lookup 1-1" Delta.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" A exclam
 EndChar

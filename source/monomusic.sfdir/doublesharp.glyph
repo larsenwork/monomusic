@@ -1,18 +1,11 @@
 StartChar: doublesharp
-Encoding: 119082 119082 297
+Encoding: 119082 119082 294
 Width: 500
 Flags: W
 HStem: 122 143<55 187.458 312.542 445> 265 104<208.542 291.458> 369 143<55 187.458 312.542 445>
 VStem: 55 143<122 254.458 379.542 512> 198 104<275.542 358.458> 302 143<122 254.458 379.542 512>
 LayerCount: 3
 Back
-SplineSet
-100 167 m 5
- 100 467 l 5
- 400 467 l 5
- 400 167 l 5
- 100 167 l 5
-EndSplineSet
 Fore
 SplineSet
 55 122 m 5x94
@@ -42,21 +35,7 @@ SplineSet
  55 122 l 5x94
 EndSplineSet
 Layer: 2
-SplineSet
-330 317 m 5
- 687 317 l 1029
--187 317 m 5
- 170 317 l 1029
-250 237 m 5
- 250 -120 l 1029
-250 754 m 5
- 250 397 l 1029
-100 167 m 5
- 100 467 l 5
- 400 467 l 5
- 400 167 l 5
- 100 167 l 5
-EndSplineSet
-Substitution2: "'sups' Superscript lookup 0-1" doublesharp.sup
-Ligature2: "'liga' Standard Ligatures lookup 0-1" numbersign numbersign exclam
+Ligature2: "'liga' Standard Ligatures lookup 1-1" sharp sharp
+Substitution2: "'sups' Superscript lookup 1-1" doublesharp.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" numbersign numbersign exclam
 EndChar

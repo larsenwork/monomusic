@@ -1,5 +1,5 @@
 StartChar: Lacute
-Encoding: 313 313 236
+Encoding: 313 313 234
 Width: 500
 VWidth: 0
 HStem: 0 72<182 420> 710 20G<100 182> 800 163
@@ -7,7 +7,7 @@ VStem: 100 82<72 730> 114 229
 LayerCount: 3
 Back
 Fore
-Refer: 310 714 N 1 0 0 1 -99 190 2
+Refer: 307 714 N 1 0 0 1 -99 190 2
 Refer: 44 76 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

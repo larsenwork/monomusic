@@ -1,5 +1,5 @@
 StartChar: flat
-Encoding: 9837 9837 116
+Encoding: 9837 9837 114
 Width: 500
 InSpiro: 1
 Flags: W
@@ -98,6 +98,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Substitution2: "'sups' Superscript lookup 0-1" flat.sup
-Ligature2: "'liga' Standard Ligatures lookup 0-1" b exclam
+Substitution2: "'sups' Superscript lookup 1-1" flat.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" b exclam
 EndChar

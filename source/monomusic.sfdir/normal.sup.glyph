@@ -1,26 +1,28 @@
 StartChar: normal.sup
-Encoding: 1114124 -1 345
+Encoding: 57355 57355 357
 Width: 500
 Flags: W
-VStem: 126 75<432 566 637 770> 300 75<240 392 465 599>
+VStem: 106 75<427 561 632 770> 320 75<240 397 470 604>
 LayerCount: 3
 Back
 Fore
 SplineSet
-201 432 m 1
- 300 465 l 1
- 300 599 l 1
- 201 566 l 1
- 201 432 l 1
-201 770 m 5
- 201 637 l 1
- 375 692 l 1
- 375 240 l 1
- 300 240 l 1
- 300 392 l 1
- 126 337 l 1
- 126 770 l 5
- 201 770 l 5
+181 427 m 5
+ 320 470 l 5
+ 320 604 l 5
+ 181 561 l 5
+ 181 427 l 5
+181 770 m 5
+ 181 632 l 5
+ 395 697 l 5
+ 395 240 l 5
+ 320 240 l 5
+ 320 397 l 5
+ 106 332 l 5
+ 106 770 l 5
+ 181 770 l 5
 EndSplineSet
 Layer: 2
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures lookup 1-1" numbersign.sup question.sup
 EndChar

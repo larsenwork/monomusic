@@ -2,7 +2,7 @@ StartChar: l
 Encoding: 108 108 76
 Width: 500
 Flags: W
-HStem: -10 68<288.967 430> 662 68<70 199>
+HStem: -10 68<288.967 429.966> 662 68<70 199>
 VStem: 199 82<64.0934 662>
 AnchorPoint: "bottom" 250 0 basechar 0
 AnchorPoint: "top" 245 730 basechar 0

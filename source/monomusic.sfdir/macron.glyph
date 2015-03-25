@@ -1,5 +1,5 @@
 StartChar: macron
-Encoding: 175 175 119
+Encoding: 175 175 117
 Width: 500
 Flags: W
 HStem: 640 64<115.5 384.5>
@@ -7,6 +7,6 @@ VStem: 115.5 269<640 704>
 LayerCount: 3
 Back
 Fore
-Refer: 162 713 N 1 0 0 1 0 0 2
+Refer: 160 713 N 1 0 0 1 0 0 2
 Layer: 2
 EndChar

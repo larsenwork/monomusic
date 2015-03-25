@@ -1,10 +1,10 @@
 StartChar: uni2199
-Encoding: 8601 8601 309
+Encoding: 8601 8601 306
 Width: 500
 Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 303 8595 S 0.707107 -0.707107 0.707107 0.707107 -135.373 263.18 2
+Refer: 300 8595 S 0.707107 -0.707107 0.707107 0.707107 -135.373 263.18 2
 Layer: 2
 EndChar

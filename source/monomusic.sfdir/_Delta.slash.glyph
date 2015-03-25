@@ -1,0 +1,13 @@
+StartChar: Delta.slash
+Encoding: 57397 57397 416
+Width: 1000
+Flags: W
+HStem: 240 70<176 400> 710 20G<821.377 902>
+LayerCount: 3
+Back
+Fore
+Refer: 370 57368 S 1 0 0 1 40 0 2
+Refer: 15 47 N 1 0 0 1 450 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" Delta.sup slash
+EndChar

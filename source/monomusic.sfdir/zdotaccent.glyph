@@ -1,5 +1,5 @@
 StartChar: zdotaccent
-Encoding: 380 380 290
+Encoding: 380 380 288
 Width: 500
 VWidth: 0
 HStem: 0 69<172 420> 451 69<80 328> 640 120<199 301>
@@ -7,7 +7,7 @@ VStem: 199 102<640 760>
 LayerCount: 3
 Back
 Fore
-Refer: 158 729 N 1 0 0 1 0 0 2
+Refer: 156 729 N 1 0 0 1 0 0 2
 Refer: 90 122 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

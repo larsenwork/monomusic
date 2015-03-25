@@ -1,5 +1,5 @@
 StartChar: Ubreve
-Encoding: 364 364 274
+Encoding: 364 364 272
 Width: 500
 VWidth: 0
 HStem: -10 72<183.508 321.128> 710 20G<60 144 360 440> 820 64<193.288 305.832>
@@ -7,7 +7,7 @@ VStem: 60 84<104.114 730> 102 56<921.128 956.625> 342 56<923.19 956.625> 360 80<
 LayerCount: 3
 Back
 Fore
-Refer: 157 728 N 1 0 0 1 0 210 2
+Refer: 155 728 N 1 0 0 1 0 210 2
 Refer: 53 85 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

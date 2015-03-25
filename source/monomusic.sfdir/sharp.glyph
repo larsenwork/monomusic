@@ -1,20 +1,10 @@
 StartChar: sharp
-Encoding: 9839 9839 299
+Encoding: 9839 9839 296
 Width: 500
 Flags: W
 VStem: 122 76<-30 148.232 250.568 437.232 539.568 700> 302 76<30 209.432 311.768 498.432 600.768 760>
 LayerCount: 3
 Back
-SplineSet
-0 145 m 29
- 500 315 l 1053
-0 434 m 29
- 500 604 l 1053
-340 30 m 29
- 340 760 l 1053
-160 -30 m 29
- 160 700 l 1053
-EndSplineSet
 Fore
 SplineSet
 302 498.431992187 m 1
@@ -53,13 +43,7 @@ SplineSet
  198 -30 l 1
 EndSplineSet
 Layer: 2
-SplineSet
-50 861 m 5
- 450 861 l 5
- 450 -139 l 5
- 50 -139 l 5
- 50 861 l 5
-EndSplineSet
-Substitution2: "'sups' Superscript lookup 0-1" sharp.sup
-Ligature2: "'liga' Standard Ligatures lookup 0-1" numbersign exclam
+LCarets2: 1 0
+Substitution2: "'sups' Superscript lookup 1-1" sharp.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" numbersign exclam
 EndChar

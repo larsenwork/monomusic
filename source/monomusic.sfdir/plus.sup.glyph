@@ -1,5 +1,5 @@
 StartChar: plus.sup
-Encoding: 1114139 -1 361
+Encoding: 57370 57370 372
 Width: 500
 Flags: W
 HStem: 471 68<70 211 289 430>
@@ -8,19 +8,19 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-289 700 m 1
- 289 539 l 1
- 430 539 l 1
- 430 471 l 1
- 289 471 l 1
- 289 310 l 1
- 211 310 l 1
- 211 471 l 1
+289 700 m 5
+ 289 539 l 5
+ 430 539 l 5
+ 430 471 l 5
+ 289 471 l 5
+ 289 310 l 5
+ 211 310 l 5
+ 211 471 l 5
  70 471 l 5
  70 539 l 5
- 211 539 l 1
- 211 700 l 1
- 289 700 l 1
+ 211 539 l 5
+ 211 700 l 5
+ 289 700 l 5
 EndSplineSet
 Layer: 2
 EndChar

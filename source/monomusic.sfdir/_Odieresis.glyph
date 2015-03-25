@@ -1,5 +1,5 @@
 StartChar: Odieresis
-Encoding: 214 214 147
+Encoding: 214 214 145
 Width: 500
 VWidth: 0
 HStem: -10 72<187.684 312.316> 668 72<187.684 312.316> 830 100<96 196 304 404>
@@ -7,7 +7,7 @@ VStem: 40 80<154.941 575.059> 96 100<830 930> 304 100<830 930> 380 80<154.941 57
 LayerCount: 3
 Back
 Fore
-Refer: 121 168 N 1 0 0 1 0 210 2
+Refer: 119 168 N 1 0 0 1 0 210 2
 Refer: 47 79 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

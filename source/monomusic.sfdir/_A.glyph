@@ -25,5 +25,6 @@ SplineSet
  348 210 l 5
 EndSplineSet
 Layer: 2
+Substitution2: "'sups' Superscript lookup 1-1" A.sup
 LCarets2: 2 0 0
 EndChar

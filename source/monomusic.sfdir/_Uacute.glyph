@@ -1,5 +1,5 @@
 StartChar: Uacute
-Encoding: 218 218 149
+Encoding: 218 218 147
 Width: 500
 VWidth: 0
 HStem: -10 72<183.508 321.128> 710 20G<60 144 360 440> 820 163
@@ -7,7 +7,7 @@ VStem: 60 84<104.114 730> 213 229 360 80<102.419 730>
 LayerCount: 3
 Back
 Fore
-Refer: 310 714 N 1 0 0 1 0 210 2
+Refer: 307 714 N 1 0 0 1 0 210 2
 Refer: 53 85 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

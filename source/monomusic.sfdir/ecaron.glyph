@@ -1,5 +1,5 @@
 StartChar: ecaron
-Encoding: 283 283 214
+Encoding: 283 283 212
 Width: 500
 VWidth: 0
 Flags: W
@@ -8,7 +8,7 @@ VStem: 63 83<129.482 234 300 407.059> 100 326 364 79<300 412.714>
 LayerCount: 3
 Back
 Fore
-Refer: 161 711 N 1 0 0 1 13 0 2
+Refer: 159 711 N 1 0 0 1 13 0 2
 Refer: 69 101 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

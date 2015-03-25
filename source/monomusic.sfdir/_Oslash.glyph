@@ -1,15 +1,11 @@
 StartChar: Oslash
-Encoding: 216 216 166
+Encoding: 216 216 164
 Width: 500
 Flags: W
-HStem: -10 72<186.016 312.316> 668 72<189.584 313.296>
-VStem: 40 80<200.692 573.301> 380 80<156.699 529.308>
+HStem: -10 72<186.016 312.316> 668 72<187.684 313.984>
+VStem: 40 80<200.582 575.059> 380 80<154.941 529.418>
 LayerCount: 3
 Back
-SplineSet
-50 0 m 29
- 450 730 l 1053
-EndSplineSet
 Fore
 SplineSet
 250 668 m 4

@@ -1,5 +1,5 @@
 StartChar: Dcroat
-Encoding: 272 272 203
+Encoding: 272 272 201
 Width: 500
 Flags: W
 HStem: -10 72<147.712 300.299> 319 72<20 65 147 230> 668 72<147.712 291.47>
@@ -7,6 +7,6 @@ VStem: 65 82<63.7205 319 391 666.28> 383 82<176.697 551.785>
 LayerCount: 3
 Back
 Fore
-Refer: 165 208 S 1 0 0 1 0 0 2
+Refer: 163 208 S 1 0 0 1 0 0 2
 Layer: 2
 EndChar

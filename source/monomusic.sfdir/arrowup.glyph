@@ -1,10 +1,10 @@
 StartChar: arrowup
-Encoding: 8593 8593 302
+Encoding: 8593 8593 299
 Width: 500
 Flags: W
 LayerCount: 3
 Back
 Fore
-Refer: 300 8594 S 0 1 -1 0 555 55 2
+Refer: 297 8594 S 0 1 -1 0 555 55 2
 Layer: 2
 EndChar

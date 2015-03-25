@@ -1,0 +1,15 @@
+StartChar: doubleflat.slash
+Encoding: 57393 57393 412
+Width: 1000
+Flags: W
+HStem: 525 68<176.434 253.556 338.425 414.714> 710 20G<821.377 902>
+VStem: 90 75<322 515.923 569 770> 255 75<376.969 517.397 577 770> 420 75<381.371 520.217>
+CounterMasks: 1 38
+LayerCount: 3
+Back
+Fore
+Refer: 360 57358 S 1 0 0 1 40 0 2
+Refer: 15 47 N 1 0 0 1 450 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" doubleflat.sup slash
+EndChar

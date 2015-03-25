@@ -1,5 +1,5 @@
 StartChar: uni0162
-Encoding: 354 354 267
+Encoding: 354 354 265
 Width: 500
 VWidth: 0
 HStem: -238 56<161.111 293.096> -97 113<221 276.774> 0 21G<209 291> 660 70<55 209 291 445>
@@ -7,7 +7,7 @@ VStem: 209 82<0 660> 221 57<-60.0766 16> 299 71<-174.08 -106.283>
 LayerCount: 3
 Back
 Fore
-Refer: 163 184 N 1 0 0 1 0 0 2
+Refer: 161 184 N 1 0 0 1 0 0 2
 Refer: 52 84 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

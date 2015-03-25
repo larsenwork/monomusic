@@ -8,16 +8,16 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-345 656 m 1
- 345 658 l 1
- 75 658 l 1
- 75 730 l 1
- 425 730 l 1
- 425 658 l 1
- 340 461 270 241 215 0 c 1
- 127 0 l 1
- 183 235 256 454 345 656 c 1
+345 656 m 5
+ 345 658 l 5
+ 75 658 l 5
+ 75 730 l 5
+ 425 730 l 5
+ 425 658 l 5
+ 340 461 270 241 215 0 c 5
+ 127 0 l 5
+ 183 235 256 454 345 656 c 5
 EndSplineSet
 Layer: 2
-Substitution2: "'sups' Superscript lookup 0-1" seven.sup
+Substitution2: "'sups' Superscript lookup 1-1" seven.sup
 EndChar

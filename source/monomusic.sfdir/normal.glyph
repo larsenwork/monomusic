@@ -1,19 +1,11 @@
 StartChar: normal
-Encoding: 9838 9838 298
+Encoding: 9838 9838 295
 Width: 500
 Flags: W
 HStem: 0 21G<332 408> 710 20G<92 168>
 VStem: 92 76<246 459 535 730> 332 76<0 223 300 513>
 LayerCount: 3
 Back
-SplineSet
-370 274 m 5
- 130 195 l 5
- 130 730 l 1029
-130 485 m 5
- 370 563 l 5
- 370 0 l 1029
-EndSplineSet
 Fore
 SplineSet
 332 300 m 5
@@ -32,6 +24,7 @@ SplineSet
  168 535 l 5
 EndSplineSet
 Layer: 2
-Substitution2: "'sups' Superscript lookup 0-1" normal.sup
-Ligature2: "'liga' Standard Ligatures lookup 0-1" numbersign question
+LCarets2: 1 0
+Substitution2: "'sups' Superscript lookup 1-1" normal.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" numbersign question
 EndChar

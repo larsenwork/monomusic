@@ -1,5 +1,5 @@
 StartChar: Ydieresis
-Encoding: 376 376 286
+Encoding: 376 376 284
 Width: 500
 VWidth: 0
 HStem: 0 21G<209 291> 710 20G<30 127.38 377.563 470> 830 100<96 196 304 404>
@@ -8,7 +8,7 @@ CounterMasks: 1 1c
 LayerCount: 3
 Back
 Fore
-Refer: 121 168 N 1 0 0 1 0 210 2
+Refer: 119 168 N 1 0 0 1 0 210 2
 Refer: 57 89 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: Abreve
-Encoding: 258 258 190
+Encoding: 258 258 188
 Width: 500
 VWidth: 0
 HStem: 0 21G<20 106.381 389.619 480> 210 70<164 332> 710 20G<195.068 304.932> 820 64<193.288 305.832>
@@ -7,7 +7,7 @@ VStem: 102 56<921.128 956.625> 342 56<923.19 956.625>
 LayerCount: 3
 Back
 Fore
-Refer: 157 728 N 1 0 0 1 0 210 2
+Refer: 155 728 N 1 0 0 1 0 210 2
 Refer: 33 65 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

@@ -1,0 +1,14 @@
+StartChar: o.slash
+Encoding: 57395 57395 414
+Width: 1000
+Flags: W
+HStem: 230 65.2002<215.07 364.92> 596.8 65.2002<215.08 364.93> 710 20G<821.377 902>
+VStem: 90 77<346.397 545.591> 413 77<346.409 545.603>
+LayerCount: 3
+Back
+Fore
+Refer: 368 57366 S 1 0 0 1 40 0 2
+Refer: 15 47 N 1 0 0 1 450 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" o.sup slash
+EndChar

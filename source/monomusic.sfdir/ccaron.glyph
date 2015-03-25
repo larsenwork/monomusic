@@ -1,5 +1,5 @@
 StartChar: ccaron
-Encoding: 269 269 201
+Encoding: 269 269 199
 Width: 500
 VWidth: 0
 HStem: -10 69<217.599 382.642> 458 72<214.048 381.755> 620 160
@@ -7,7 +7,7 @@ VStem: 70 82<135.515 383.844> 117 326
 LayerCount: 3
 Back
 Fore
-Refer: 161 711 N 1 0 0 1 30 0 2
+Refer: 159 711 N 1 0 0 1 30 0 2
 Refer: 67 99 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

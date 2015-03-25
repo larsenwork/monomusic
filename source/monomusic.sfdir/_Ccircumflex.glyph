@@ -1,5 +1,5 @@
 StartChar: Ccircumflex
-Encoding: 264 264 196
+Encoding: 264 264 194
 Width: 500
 VWidth: 0
 HStem: -10 72<222.606 393.208> 668 72<223.934 397.626> 820 160
@@ -7,7 +7,7 @@ VStem: 55 80<185.487 541.571> 117 326
 LayerCount: 3
 Back
 Fore
-Refer: 160 710 N 1 0 0 1 30 210 2
+Refer: 158 710 N 1 0 0 1 30 210 2
 Refer: 35 67 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

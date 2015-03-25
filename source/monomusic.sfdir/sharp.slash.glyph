@@ -1,0 +1,14 @@
+StartChar: sharp.slash
+Encoding: 57391 57391 410
+Width: 1000
+Flags: W
+HStem: 520 21G<125 177> 710 20G<821.377 902>
+VStem: 177 75<213 328 431 538 640 743> 348 75<271 387 489 597 699 801>
+LayerCount: 3
+Back
+Fore
+Refer: 358 57356 S 1 0 0 1 40 0 2
+Refer: 15 47 N 1 0 0 1 450 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" sharp.sup slash
+EndChar

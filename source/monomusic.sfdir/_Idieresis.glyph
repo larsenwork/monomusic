@@ -1,5 +1,5 @@
 StartChar: Idieresis
-Encoding: 207 207 141
+Encoding: 207 207 139
 Width: 500
 VWidth: 0
 HStem: 0 70<90 208 292 410> 660 70<90 208 292 410> 830 100<96 196 304 404>
@@ -8,7 +8,7 @@ CounterMasks: 1 1c
 LayerCount: 3
 Back
 Fore
-Refer: 121 168 N 1 0 0 1 0 210 2
+Refer: 119 168 N 1 0 0 1 0 210 2
 Refer: 41 73 N 1 0 0 1 0 0 3
 Layer: 2
 EndChar

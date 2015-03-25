@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>MonoMusic</title>
+    <link rel="stylesheet" href="_/foundation.min.css" >
+    <link rel="stylesheet" href="_/styles.css" >
+    <script src="_/js/vendor/jquery.js"></script>
+    <script src="_/js/prefix.js"></script>
+    <script src="_/js/highlight.js"></script>
+    <script src="_/js/chordhighlight.js"></script>
+    <script src="_/js/color.js"></script>
+  </head>
+  <body class="withtitle">
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>MonoMusic</h1>
+        <h2 class="tagline">A monospaced font for chords+tabs</h2>
+        <a class="button" href="https://github.com/andreaslarsen/monomusic">download</a>
+        <h2 class="chordfixer">MonoMusicFixer</h2>
+      </div>
+
+
+      <div class="large-12 columns">
+        <form onsubmit="convert();return false;">
+          <textarea id="text" placeholder="Type or paste something here and press 'Fix' and enjoy pretty, highlighted, shortened and superscripted chords like shown in the examples below"></textarea>
+          <input type="submit" name="submit" value="Fix" class="button">
+        </form>
+        <div class="title" placeholder="Examples - by @andreaslarsendk" contenteditable="true"></div>
+        <div class="text" id="hyp" contenteditable="true">Capo II
+
+<span class="highlight">Em</span>      <span class="highlight">G</span>
+Today is gonna be the day
+             <span class="highlight">D</span><span class="highlight"></span>                   <span class="highlight">A</span><span class="highlight"></span>
+That they're gonna throw it back to you,
+<span class="highlight">Em</span>        <span class="highlight">G</span>
+By now you should of somehow
+   <span class="highlight">D</span><span class="highlight"></span>                 <span class="highlight">A</span><span class="highlight"></span>
+Realised what you gotta do.
+<span class="highlight">Em</span>                  <span class="highlight">G</span>       <span class="highlight">D</span><span class="highlight"></span>            <span class="highlight">A</span><span class="highlight"></span>
+I don't believe that anybody feels the way I do
+          <span class="highlight">C</span><span class="highlight"></span>  <span class="highlight">D</span> l! <span class="highlight">A</span><span class="highlight"></span>  l!
+About you now.</div>
+        <div>
+          <span id="title" class="button">Title</span>
+<!--          <span id="column" class="button">Col</span>-->
+          <span id="addfix" class="button">Adsu</span>
+          <span id="magich" class="button">B→H</span>
+          <span id="plus" class="button">+</span>
+          <span id="minus" class="button">÷</span>
+          <span id="hide" class="button">Done</span>
+          <span id="farve">
+            Chords
+            <select name="colorpicker">
+              <option value="hsl(195, 100%, 42%)">cyan1</option>
+              <option value="hsl(195, 100%, 47%)" selected>cyan2</option>
+              <option value="hsl(195, 100%, 57%)">cyan3</option>
+              <option value="hsl(195, 100%, 67%)">cyan4</option>
+              <option value="hsl(324, 100%, 45%)">magento1</option>
+              <option value="hsl(324, 100%, 48%)">magento2</option>
+              <option value="hsl(324, 100%, 61%)">magento3</option>
+              <option value="hsl(324, 100%, 76%)">magento4</option>
+              <option value="hsl(57, 100%, 40%)">yellow1</option>
+              <option value="hsl(57, 100%, 44%)">yellow2</option>
+              <option value="hsl(57, 100%, 48%)">yellow3</option>
+              <option value="hsl(57, 100%, 50%)">yellow4</option>
+              <option value="hsl(195, 5%, 0%)">0%</option>
+              <option value="hsl(195, 5%, 10%)">10%</option>
+              <option value="hsl(195, 5%, 20%)">20%</option>
+              <option value="hsl(195, 5%, 30%)">30%</option>
+              <option value="hsl(195, 5%, 40%)">40%</option>
+              <option value="hsl(195, 5%, 50%)">50%</option>
+              <option value="hsl(195, 5%, 60%)">60%</option>
+              <option value="hsl(195, 5%, 70%)">70%</option>
+              <option value="hsl(195, 5%, 80%)">80%</option>
+              <option value="hsl(195, 5%, 90%)">90%</option>
+              <option value="hsl(195, 5%, 100%)">100%</option>
+            </select>
+            Text
+            <select name="textpicker">
+              <option value="hsl(195, 5%, 0%)">0%</option>
+              <option value="hsl(195, 5%, 10%)">10%</option>
+              <option value="hsl(195, 5%, 20%)" selected>20%</option>
+              <option value="hsl(195, 5%, 30%)">30%</option>
+              <option value="hsl(195, 5%, 40%)">40%</option>
+              <option value="hsl(195, 5%, 50%)">50%</option>
+              <option value="hsl(195, 5%, 60%)">60%</option>
+              <option value="hsl(195, 5%, 70%)">70%</option>
+              <option value="hsl(195, 5%, 80%)">80%</option>
+              <option value="hsl(195, 5%, 90%)">90%</option>
+              <option value="hsl(195, 5%, 100%)">100%</option>
+            </select>
+          </span>
+        </div>
+      </div>
+      <div class="large-12 columns white">Report issues and give me ideas on <a href="https://github.com/andreaslarsen/monomusic">GitHub</a>
+
+Title - Show/hide
+Adsu  - Adds the maybe missing space(s) after add and sus chords
+B→H   - If you're from Denmark
+Done  - Hide everything but the document (esc to unhide)
+
+Future
+Fixing the forward slash ligatures in the web version
+Any other ideas?</div>
+    </div><!-- Row -->
+    <script>
+      $(document).ready(function(){
+        $("#plus").click(function() {
+            var fontSize = parseInt($('body').css("font-size"));
+            fontSize = fontSize + 1 + "px";
+            $('body, textarea').css({'font-size':fontSize});
+        });
+        $("#minus").click(function() {
+            var fontSize = parseInt($('body').css("font-size"));
+            fontSize = fontSize - 1 + "px";
+            $('body, textarea').css({'font-size':fontSize});
+        });
+        $('select[name="colorpicker"]').simplecolorpicker({
+          picker: true,
+        }).on('change', function() {
+          $(".highlight").css('color', $('select[name="colorpicker"]').val());
+        });
+        $('select[name="textpicker"]').simplecolorpicker({
+          picker: true,
+        }).on('change', function() {
+          $(".text, .title").css('color', $('select[name="textpicker"]').val());
+        });
+        $("#title").click(function(){
+          $("body").toggleClass("withtitle");
+        });
+//        $("#column").click(function(){
+//          $(".text").toggleClass("col2");
+//        });
+        $("#hide").click(function(){
+          $("body").addClass("wow");
+        });
+        $(document).on('keyup',function(evt) {
+          if (evt.keyCode == 27) {
+            $("body").removeClass("wow");
+          }
+        });
+        $("#magich").click(function(){
+          $(".highlight").each(function() {
+            var text = $(this).text();
+            text = text.replace(/B/g, "H");
+            $(this).text(text);
+          });
+        });
+        $("#addfix").click(function(){
+          $(".highlight").each(function() {
+            var text = $(this).text();
+            text = text.replace(/sus2/g, "sus2 ");
+            text = text.replace(/sus4/g, "sus4 ");
+            text = text.replace(/add2/g, "add2 ");
+            text = text.replace(/add4/g, "add4 ");
+            text = text.replace(/add6/g, "add6 ");
+            text = text.replace(/add9/g, "add9 ");
+            text = text.replace(/add11/g, "add11  ");
+            text = text.replace(/add13/g, "add13  ");
+            $(this).text(text);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

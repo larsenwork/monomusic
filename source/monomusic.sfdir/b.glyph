@@ -27,4 +27,5 @@ SplineSet
  347 65 376 158 376 260 c 4
 EndSplineSet
 Layer: 2
+Substitution2: "'sups' Superscript lookup 1-1" b.sup
 EndChar

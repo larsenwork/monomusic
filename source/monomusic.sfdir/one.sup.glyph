@@ -1,20 +1,20 @@
 StartChar: one.sup
-Encoding: 1114114 -1 335
+Encoding: 57345 57345 347
 Width: 500
 Flags: W
-VStem: 259 80<240 686>
+VStem: 230 75<240 692>
 LayerCount: 3
 Back
 Fore
 SplineSet
-339 240 m 5
- 259 240 l 5
- 259 686 l 5
- 131 614 l 5
- 131 692 l 5
- 266 770 l 5
- 339 770 l 5
- 339 240 l 5
+305 240 m 1
+ 230 240 l 1
+ 230 692 l 1
+ 169 657 l 5
+ 169 731 l 5
+ 236 770 l 1
+ 305 770 l 1
+ 305 240 l 1
 EndSplineSet
 Layer: 2
 EndChar

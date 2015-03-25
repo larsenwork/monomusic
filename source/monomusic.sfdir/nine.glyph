@@ -28,5 +28,5 @@ SplineSet
  346 583.224209152 330.847625113 668 245 668 c 4
 EndSplineSet
 Layer: 2
-Substitution2: "'sups' Superscript lookup 0-1" nine.sup
+Substitution2: "'sups' Superscript lookup 1-1" nine.sup
 EndChar

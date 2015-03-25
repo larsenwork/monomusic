@@ -20,5 +20,5 @@ SplineSet
  195 0 l 5xe0
 EndSplineSet
 Layer: 2
-Substitution2: "'sups' Superscript lookup 0-1" exclam.sup
+Substitution2: "'sups' Superscript lookup 1-1" exclam.sup
 EndChar

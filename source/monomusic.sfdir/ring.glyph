@@ -1,5 +1,5 @@
 StartChar: ring
-Encoding: 730 730 126
+Encoding: 730 730 124
 Width: 500
 Flags: W
 HStem: 480 50<207.649 292.351> 634 50<207.649 292.351>
@@ -7,13 +7,6 @@ VStem: 148 50<539.649 624.351> 302 50<539.649 624.351>
 AnchorPoint: "top" 250 520 mark 0
 LayerCount: 3
 Back
-SplineSet
-173 647 m 4
- 173 690 207 724 250 724 c 4
- 293 724 327 690 327 647 c 4
- 327 604 293 570 250 570 c 4
- 207 570 173 604 173 647 c 4
-EndSplineSet
 Fore
 SplineSet
 198 582 m 4
