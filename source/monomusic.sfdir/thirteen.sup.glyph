@@ -1,0 +1,14 @@
+StartChar: thirteen.sup
+Encoding: 57409 57409 428
+Width: 1000
+Flags: W
+HStem: 233 69<485.879 727.292> 492 65<650 739.044> 705 68<470 734>
+VStem: 230 75<240 692> 771 76<340.089 465.005>
+LayerCount: 3
+Back
+Fore
+Refer: 349 57347 S 1 0 0 1 408 0 2
+Refer: 347 57345 N 1 0 0 1 0 0 2
+Layer: 2
+Ligature2: "'liga' Standard Ligatures lookup 1-1" one.sup three.sup
+EndChar

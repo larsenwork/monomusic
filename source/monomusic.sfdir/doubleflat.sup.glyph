@@ -36,7 +36,7 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "'liga' Standard Ligatures lookup 1-1" flat.sup flat.sup
-Substitution2: "'sups' Superscript lookup 1-1" doubleflat.sup
 Ligature2: "'liga' Standard Ligatures lookup 1-1" b.sup b.sup exclam.sup
+Substitution2: "'sups' Superscript lookup 1-1" doubleflat.sup
+Ligature2: "'liga' Standard Ligatures lookup 1-1" flat.sup flat.sup
 EndChar

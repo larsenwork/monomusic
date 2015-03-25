@@ -1,12 +1,14 @@
 StartChar: eleven.sup
 Encoding: 57408 57408 427
 Width: 1000
-Flags: HW
+Flags: W
+VStem: 230 75<240 692> 520 75<240 692>
 LayerCount: 3
 Back
 Fore
-Refer: 347 57345 S 1 0 0 1 270 0 2
+Refer: 347 57345 S 1 0 0 1 290 0 2
 Refer: 347 57345 N 1 0 0 1 0 0 2
 Layer: 2
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures lookup 1-1" one.sup one.sup
 EndChar
