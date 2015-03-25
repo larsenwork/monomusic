@@ -22,7 +22,7 @@ body, textarea {
   -ms-font-feature-settings: "liga", "clig";
   -webkit-font-feature-settings: "liga", "clig";
   font-feature-settings: "liga", "clig";
-  font-size: 14px;
+  font-size: 18px;
 }
 
 * {
@@ -36,6 +36,9 @@ body, textarea {
 body, .button, .tagline {
   font-family: 'monomusicregular';
   font-weight: 400;
+}
+.row {
+  max-width: 900px;
 }
 h1, h2, h3, .title {
   font-family: 'm_1cheavy';
@@ -72,7 +75,7 @@ h2, .title {
   display: block;
 }
 body, input, h1 {
-  color: hsl(195, 5%, 20%);
+  color: hsl(195, 5%, 30%);
 }
 .button {
   font-size: 1.618em;
@@ -125,11 +128,8 @@ textarea {
   color: hsl(195, 100%, 40%);
   text-decoration: none;
 }
-#hide {
-  background-color: hsl(105, 100%, 36%);
-}
-#hide:hover {
-  background-color: hsl(105, 100%, 30%);
+.right {
+  text-align: right;
 }
 .magic #title, .magic #nomagic {
   display: inline-block;
