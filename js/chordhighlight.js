@@ -26,6 +26,7 @@ function chordHighligt() {
     text = text.replace(/\♯/g, "\#");
     text = text.replace(/\°/g, "o");
     text = text.replace(/\♭/g, "b");
+    text = text.replace(/\-x\-/g, "\-\×\-");
     $(this).text(text);
   });
   $('.text').highlight(['\/C\#', '\/D\#', '\/E\#', '\/F\#', '\/G\#', '\/A\#', '\/B\#', '\/C♭', '\/D♭', '\/E♭', '\/F♭', '\/G♭', '\/A♭', '\/B♭', '\/C', '\/D', '\/E', '\/F', '\/G', '\/A', '\/B', 'mb6', 'maj7+5', '7\#5', '(no 3rd)', 'm7b5', 'dim7', 'mΔ', '-Δ7', 'm\/M7', 'mM7', 'm\/maj7', 'm\/ma7', 'mΔ', 'min7', 'mi7',  'phryg', 'b9sus', '7sus4', 'sus2', 'sus4', 'alt7', '7\#9', '7b9', '7\#4', '7\#11',  'M7b6', 'ma7b6', 'maj7b6', 'Δ\#11', 'Δ\#4', 'maj\#4', 'Δ7', 'Δ', 'maj7', 'maj9', 'maj13', 'add13', 'add11', 'add9', 'add6', 'add2'], {
