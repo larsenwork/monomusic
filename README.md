@@ -1,12 +1,5 @@
 A monospaced font optimised for music
 
-Modified version of M+ 1M 
+[Download font](https://github.com/andreaslarsen/monomusic/blob/master/MonoMusic-Regular.ttf?raw=true)
 
-Direct download:
-https://github.com/andreaslarsen/monomusic/blob/master/MonoMusic-Regular.ttf?raw=true
-
-See it live on:
-http://andreaslarsen.github.io/chord-magic/
-
-Ligatures amont other cool stuf:
-![liga](https://github.com/andreaslarsen/monomusic/blob/master/monomusic.jpg)
+![manual](https://github.com/andreaslarsen/monomusic/raw/master/resources/MonoManual.jpg)
