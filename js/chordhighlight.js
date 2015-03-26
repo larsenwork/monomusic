@@ -22,7 +22,7 @@ function chordHighligt() {
     text = text.replace(/\u0023\!/g, "\#");
     text = text.replace(/\u1D6AB/g, "\u0394"); // Only greek Delta
     text = text.replace(/A\!/g, "Δ");
-    text = text.replace(/\|/g, "l\!");
+    text = text.replace(/\|/g, "andreaslarsendk");
     text = text.replace(/\♯/g, "\#");
     text = text.replace(/\°/g, "o");
     text = text.replace(/\♭/g, "b");
@@ -78,5 +78,11 @@ function chordHighligt() {
     text = text.replace(/\u1D12A/g, "\uE00D"); //doublesharp
     text = text.replace(/\u1D12B/g, "\uE00E"); //doubleflat
     $(this).text(text);
+  });
+  $('.text').html(function(index,html){
+    return html.replace(/<\/span><span class=\"highlight\">/,'');
+  });
+  $('.text').html(function(index,html){
+    return html.replace(/andreaslarsendk/,'\|');
   });
 }
