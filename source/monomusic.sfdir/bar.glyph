@@ -1,17 +1,17 @@
 StartChar: bar
 Encoding: 124 124 92
 Width: 500
-Flags: W
-VStem: 212 76<-220 810>
+Flags: WO
+VStem: 212 76<-260 850>
 LayerCount: 3
 Back
 Fore
 SplineSet
-212 -220 m 1
- 212 810 l 1
- 288 810 l 1
- 288 -220 l 1
- 212 -220 l 1
+212 -260 m 5
+ 212 850 l 1
+ 288 850 l 1
+ 288 -260 l 5
+ 212 -260 l 5
 EndSplineSet
 Layer: 2
 EndChar
