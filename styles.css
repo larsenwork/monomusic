@@ -20,7 +20,7 @@ body, textarea {
   -ms-font-feature-settings: "liga", "clig";
   -webkit-font-feature-settings: "liga", "clig";
   font-feature-settings: "liga", "clig";
-  font-size: 18px;
+  font-size: 14px;
 }
 #background {
   border-radius: 20px;
@@ -36,7 +36,7 @@ body * {
 }
 .white {
   white-space: pre-wrap;
-  margin-bottom: 12em;
+  margin-bottom: 4em;
   margin-top: 2em;
 }
 body, .button, .tagline {
@@ -55,7 +55,7 @@ h1, h2, h3, .title {
 h1 {
   font-size: 4.24em;
   margin-bottom: -.2em;
-  margin-top: 2em;
+  margin-top: .2em;
 }
 .tagline {
   height: auto;
@@ -91,13 +91,25 @@ body, input, h1 {
 }
 .button {
   font-size: 1.618em;
-  padding: 0.6rem 0.7rem 0.4rem 0.7rem;
+  padding: 0.57rem 0.7rem 0.43rem 0.7rem;
 }
 .button, textarea, #hyp {
   margin: 0 0 1rem 0;
 }
 .text {
   height: auto;
+}
+.text .column {
+  padding-left: .5%;
+  padding-right: .5%;
+}
+.first.column {
+  padding-right: 1%;
+  padding-left: 0%;
+}
+.last.column {
+  padding-left: 1%;
+  padding-right: 0%;
 }
 .text, textarea {
   width: 100%;
@@ -109,7 +121,8 @@ body, input, h1 {
 textarea {
   background-color: white;
   resize: none;
-  height: 200px;
+  min-height: 200px;
+  max-height: 500px;
   font-family: 'monomusicregular';
   border: 1px solid #bbb;
   margin-bottom: 0.5rem;
@@ -274,7 +287,7 @@ span.color:hover {
 .wow .noprint { display: none; }
 .wow #hyp, .wow.withtitle .title { width: 100%; border: 0; display: block; margin: 0; padding: 12px 0; }
 .wow .highlight, .wow .superscript, .wow .temp {display: inline-block;}
-.wow .row {max-width: 100%; }
+.row {max-width: 100%; }
 .wow #background { display: block; }
 
 #demo {

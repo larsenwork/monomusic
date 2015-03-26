@@ -66,12 +66,12 @@ E|---×-----0-----×-----×-----0-----×-----×-----×-----×-----×-----×-----
       </div> <!-- column -->
       <div class="large-10 columns noprint">
         <span id="title" class="button">Title</span>
-<!--          <span id="column" class="button">Col</span>-->
         <span id="addfix" class="button">Space</span>
         <span id="magich" class="button">B→H</span>
         <span class="button plus">+</span>
         <span class="button minus">÷</span>
-        <span id="columns" class="button">Col</span>
+        <span id="columns" class="button">2 Col</span>
+        <span id="column3" class="button">3 Col</span>
         <span id="farve">
           Chords
           <select name="colorpicker">
@@ -122,7 +122,7 @@ E|---×-----0-----×-----×-----0-----×-----×-----×-----×-----×-----×-----
 Space  Adds the maybe missing space(s) after add and sus chords
 B→H    If you're from Denmark
 + ÷    Font size
-Col    Switch to two columns
+Col    Choose 2 or 3 columns - manual column breaks comming soon
 
 Report issues and share your ideas on <a href="https://github.com/andreaslarsen/monomusic/issues">GitHub</a></div>
     </div><!-- Row -->
@@ -159,9 +159,9 @@ Report issues and share your ideas on <a href="https://github.com/andreaslarsen/
         $("#columns").click(function(){
           $('#hyp').columnize({ columns: 2 });
         });
-//        $("#column").click(function(){
-//          $(".text").toggleClass("col2");
-//        });
+        $("#column3").click(function(){
+          $('#hyp').columnize({ columns: 3 });
+        });
         $("#hide").click(function(){
           toggleFullScreen();
         });
