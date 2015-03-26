@@ -1,7 +1,7 @@
 StartChar: divide
 Encoding: 247 247 316
 Width: 500
-Flags: WO
+Flags: W
 HStem: 55 90<199 301> 269 72<60 440> 465 90<199 301>
 VStem: 199 102<55 145 465 555>
 CounterMasks: 1 e0
