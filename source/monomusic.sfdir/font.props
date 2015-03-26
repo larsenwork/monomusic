@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1226922713
-ModificationTime: 1427327740
+ModificationTime: 1427330918
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -98,12 +98,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 76 38 14
 BeginPrivate: 0
 EndPrivate
 Grid
--1000 770 m 4
- 2000 770 l 1028
+-1000 770 m 0
+ 2000 770 l 1024
   Named: "sup"
 -1000 240 m 0
  2000 240 l 1024
@@ -117,8 +117,8 @@ Grid
 -1000 730 m 0
  2000 730 l 1024
   Named: "caps"
--1000 307 m 0
- 2000 307 l 1024
+-1000 365 m 4
+ 2000 365 l 1024
 -1000 623 m 0
  2000 623 l 1024
 EndSplineSet
