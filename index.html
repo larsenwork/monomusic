@@ -133,6 +133,7 @@ Report issues and share your ideas on <a href="https://github.com/andreaslarsen/
     </div>
     <script>
       $(document).ready(function(){
+        $('textarea#text').textareaAutoSize();
         $(".plus").click(function() {
             var fontSize = parseInt($('body').css("font-size"));
             fontSize = fontSize + 1 + "px";

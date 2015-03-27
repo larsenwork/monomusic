@@ -63,7 +63,7 @@ h1 {
   margin-bottom: 0.3em;
 }
 .chordfixer {
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0em;
 }
 h2, .title {
@@ -116,35 +116,45 @@ body, input, h1 {
   border: 1px solid #bbb;
   outline: none;
   padding: 20px;
-  line-height: 1.10em;
+  line-height: 1.18em;
 }
 textarea {
   background-color: white;
   resize: none;
-  min-height: 200px;
-  max-height: 500px;
+  min-height: 100px;
+  max-height: 60%;
   font-family: 'monomusicregular';
   border: 1px solid #bbb;
   margin-bottom: 0.5rem;
 }
 ::-webkit-input-placeholder {
   color: hsl(195, 5%, 30%);
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
-
 :-moz-placeholder { /* Firefox 18- */
   color: hsl(195, 5%, 30%);
-  line-height: 1.5em;
+  line-height: 1.2em;
+  opacity: 1;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
   color: hsl(195, 5%, 30%);
-  line-height: 1.5em;
+  line-height: 1.2em;
+  opacity: 1;
 }
-
 :-ms-input-placeholder {
   color: hsl(195, 5%, 30%);
-  line-height: 1.5em;
+  line-height: 1.2em;
+}
+textarea:focus::-webkit-input-placeholder
+{
+  color: transparent;
+}
+textarea:focus::-moz-placeholder{
+  color: transparent;
+}
+textarea:focus:-moz-placeholder{
+  color: transparent;
 }
 .withtitle #hyp {
   border-top: 1px solid white;
@@ -164,7 +174,8 @@ textarea {
 .highlight {
   page-break-after: avoid;
   display: inline-block;
-  padding-top: 6px;
+  padding-top: 3px;
+  transform: translateY(2px);
 }
 .highlight, a {
   color: hsl(195, 100%, 40%);
