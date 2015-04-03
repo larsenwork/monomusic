@@ -1,9 +1,9 @@
 StartChar: uni00AD
 Encoding: 173 173 345
 Width: 500
-Flags: HW
-HStem: 329 72<120 380>
-VStem: 120 260<329 401>
+Flags: W
+HStem: 269 72<120 380>
+VStem: 120 260<269 341>
 LayerCount: 3
 Back
 Fore
