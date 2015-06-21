@@ -8,11 +8,11 @@ function chordHighligt() {
     text = text.replace(/\u0023\!/g, "#");
     text = text.replace(/\u1D6AB/g, "\u0394"); // Only greek Delta
     text = text.replace(/A\!/g, "Δ");
-    text = text.replace(/E\ \|/g, "E|");
-    text = text.replace(/A\ \|/g, "A|");
-    text = text.replace(/G\ \|/g, "G|");
-    text = text.replace(/D\ \|/g, "D|");
-    text = text.replace(/B\ \|/g, "B|");
+    // text = text.replace(/E\ \|/g, "E|");
+    // text = text.replace(/A\ \|/g, "A|");
+    // text = text.replace(/G\ \|/g, "G|");
+    // text = text.replace(/D\ \|/g, "D|");
+    // text = text.replace(/B\ \|/g, "B|");
     text = text.replace(/\|/g, "andreaslarsendk");
     text = text.replace(/\♯/g, "#");
     text = text.replace(/\°/g, "o");
